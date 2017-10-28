@@ -51,6 +51,8 @@ tasto = \markup { \remark "tasto solo" }
 tastoE = \markup { \remarkE "tasto solo" }
 org = \markup { \remark Org. }
 orgE = \markup { \remarkE Org. }
+tenuto = \markup { \remark ten. }
+tenutoE = \markup { \remarkE ten. }
 
 t = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-line #'(1 . 0) }
 l = \markup { \fontsize #-2 \transparent \number 5 }
