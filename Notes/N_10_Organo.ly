@@ -52,7 +52,7 @@ MiserereOrgano = {
 		g,4 r8 g' g,4 r8 g'
 		g,4 r8 g' g,4 r8 g'\pp
 		g,4 r8 g' g,2~\ff^\tenuto %35
-		g4~ g~\p-\tasto g2\pp^\tenuto\fermata \bar "||" %36 finis
+		g4~ g~\p-\tasto \mvTrr g2\pp-\tenuto\fermata \bar "||" %36 finis
 	}
 }
 
