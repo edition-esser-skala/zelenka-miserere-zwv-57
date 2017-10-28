@@ -9,14 +9,12 @@
 \version "2.18.0"
 
 MiserereOrgano = {
-	\overrideTimeSignatureSettings
-		4/4
-		1/2
-		#'(1 1)
-		#'()
 	\relative c {
 		\clef bass
 		\key c \dorian \time 4/4 \tempoMiserere
+		\set Staff.beamExceptions = #'()
+			\set Staff.baseMoment = #(ly:make-moment 1/2)
+			\set Staff.beatStructure = #'(1 1)
 		\mvTr c8.-!\fE-\soloE-\tasto c16-! c8.-! c16-! c8. c16 c8. c16
 		c8. c16 c8. c16 c8. c16 c8. c16
 		c8. c16 c8. c16 c8. c16 c8. c16

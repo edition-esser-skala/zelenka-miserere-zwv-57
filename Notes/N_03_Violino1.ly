@@ -12,6 +12,9 @@ MiserereViolinoI = {
 	\relative c' {
 		\clef treble
 		\key c \dorian \time 4/4 \tempoMiserere
+		\set Staff.beamExceptions = #'()
+			\set Staff.baseMoment = #(ly:make-moment 1/2)
+			\set Staff.beatStructure = #'(1 1)
 		R1
 		\mvTr as'8.\f-\tenuto as16 as8. as16 as8. as16 as8. as16
 		h8. h16 h8. h16 c8. c16 c8. d16
