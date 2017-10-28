@@ -46,13 +46,13 @@ MiserereOrgano = {
 		g'8. g,16 g'8. g,16 g'8. g,16 g'8. g,16
 		g'8. g,16 g'8. g,16 g'8. g,16 g'8. g,16
 		g'8. g,16 g'8. g,16 c'8. c,16 c'8. b16
-		as8. as,16 as'8. g16 fis8.-\critnote fis16 fis8. fis16 %30
+		as8. as,16 as'8. g16 fis8.-\critnote\ff fis16 fis8. fis16 %30
 		g8. g,16 g8. g16 g4 r8 g'
 		g,4 r8 g' g,4 r8 g'
 		g,4 r8 g' g,4 r8 g'
 		g,4 r8 g' g,4 r8 g'\pp
 		g,4 r8 g' g,2~\ff^\tenuto %35
-		g4~ g~\p-\tasto g2\pp^\tenuto \bar "||" %36 finis
+		g4~ g~\p-\tasto g2\pp^\tenuto\fermata \bar "||" %36 finis
 	}
 }
 
