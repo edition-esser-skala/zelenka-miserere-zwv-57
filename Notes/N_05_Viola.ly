@@ -10,8 +10,8 @@
 
 MiserereViola = {
 	\relative c' {
-		\clef treble
-% 		\clef alto
+% 		\clef treble
+		\clef alto
 		\key c \dorian \time 4/4 \tempoMiserere
 		es16(-.-\markup { \remark "sempre fortissimo" } es-. es-. es-.) es(-. es-. es-. es-.) es(-. es-. es-. es-.) es(-. es-. es-. es-.)
 		es(-. es-. es-. es-.) es(-. es-. es-. es-.) f(-. c-. c-. c-.) c(-. c-. c-. c-.)
