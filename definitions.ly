@@ -185,13 +185,13 @@ tempoMiserere = \tempoMarkup "Adagio"
 	\context {
 		\StaffGroup
 		\override SystemStartBracket.collapse-height = #1
-		\override StaffGrouper.staffgroup-staff-spacing.basic-distance = #14
-		\override StaffGrouper.staff-staff-spacing.basic-distance = #10
+% 		\override StaffGrouper.staffgroup-staff-spacing.basic-distance = #14
+% 		\override StaffGrouper.staff-staff-spacing.basic-distance = #10
 	}
 	\context {
 		\ChoirStaff
-		\override StaffGrouper.staffgroup-staff-spacing.basic-distance = #16
-		\override StaffGrouper.staff-staff-spacing.basic-distance = #11
+% 		\override StaffGrouper.staffgroup-staff-spacing.basic-distance = #16
+% 		\override StaffGrouper.staff-staff-spacing.basic-distance = #11
 	}
 	\context {
 		\Staff

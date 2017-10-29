@@ -33,7 +33,7 @@ MiserereTenoreNotes = {
 		b1
 		b4 f'2 \once\tieDashed es4~
 		es d4. b8 d4~ %20
-		d es f b,8[ a]
+		d es f b,8[ as?]
 		g4 g'4. f8 es4
 		d es4. es8 es c
 		c4. h8 c4 f~

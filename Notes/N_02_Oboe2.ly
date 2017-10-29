@@ -19,7 +19,7 @@ MiserereOboeII = {
 		c(-. c-. c-. c-. b-. b-. b-. b-.) b(-. b-. b-. b-. b-. b-. b-. b-.) %5
 		b(-. b-. b-. b-. a-. a-. a-. a-. a-. a-. a-. a-. a-. a-. a-. a-.)
 		a(-.-\critnote a-. a-. a-. g-. g-. g-. g-.) g(-. g-. g-. g-. g-. g-. g-. a-.)
-		d,(-. d-. d-. d-.) d(-. d-. d-. d-.) d(-. d-. d-. d-. d-. d-. d-. d-.)
+		es(-.-\critnote es-. es-. es-.) es(-. es-. es-. es-.) d(-. d-. d-. d-. d-. d-. d-. d-.)
 		d(-. d-. d-. d-. a'-. a-. a-. a-.) a(-. a-. a-. a-. g-. g-. g-. g-.)
 		g(-. g-. g-. g-. f!-. f-. f-. f-.) es!(-. es-. es-. es-. e-. e-. e-. e-.) %10
 		fis(-. fis-. fis-. fis-. g-. g-. g-. g-. g-. g-. g-. g-. fis-. fis-. fis-. fis-.)
