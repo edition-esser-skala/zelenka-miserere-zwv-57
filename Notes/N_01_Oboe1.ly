@@ -41,7 +41,7 @@ MiserereOboeI = {
 		es(-. es-. es-. es-. es-. es-. es-. es-. d-. d-. d-. d-. e-. e-. e-. e-.)
 		f(-. f-. f-. f-. f-. f-. f-. f-. f-. f-. f-. f-. es-. es-. es-. es-.)
 		d(-. d-. d-. d-. d-. d-. d-. d-. c-. c-. c-. c-. es-. es-. es-. es-.)
-		es(-. es-. es-. es-. es-. es-. es-. es-. es-. es-. es-. es-. es-. es-. es-. es-.)  %30
+		es(-. es-. es-. es-. es-. es-. es-. es-. es-.\ffE es-. es-. es-. es-. es-. es-. es-.)  %30
 		es(-. es-. es-. es-. d-. d-. c-. c-.) d4 r8 g,
 		g1~
 		g~
