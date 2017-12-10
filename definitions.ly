@@ -7,30 +7,84 @@
 
 
 \paper {
-	indent = 2.5\cm
-	top-margin = 1\cm
-	bottom-margin = 1\cm
-	head-separation = 0\cm
-	foot-separation = 1\cm
 	two-sided = ##t
+	top-margin = 0.5\cm
+	bottom-margin = 0.5\cm
 	outer-margin = 2\cm
 	inner-margin = 1.5\cm
-	oddHeaderMarkup = \markup {
+	indent = 2\cm
+	
+	oddHeaderMarkup = \markup {}
+	evenHeaderMarkup = \markup {}
+	oddFooterMarkup = \markup {
 		\fill-line {
-			" " \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+			" " \fromproperty #'page:page-number-string
 		}
 	}
-	evenHeaderMarkup = \markup {
-		\on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+	evenFooterMarkup = \markup {
+		\fromproperty #'page:page-number-string
 	}
-	oddFooterMarkup = \markup { }
-
-	evenFooterMarkup = \markup { }
-	print-first-page-number = ##t
-	system-separator-markup = \slashSeparator
-	system-system-spacing = #'((basic-distance . 20) (minimum-distance . 8) (padding . 1) (stretchability . 600))
-	last-bottom-spacing = #'((basic-distance . 1) (minimum-distance . 0) (padding . 1) (stretchability . 10000))
-	print-first-page-number = ##t
+	
+	system-system-spacing =
+    #'((basic-distance . 16)
+       (minimum-distance . 16)
+       (padding . -100)
+       (stretchability . 0))
+	
+	top-system-spacing =
+    #'((basic-distance . 10)
+       (minimum-distance . 10)
+       (padding . -100)
+       (stretchability . 0))
+	
+	top-markup-spacing =
+    #'((basic-distance . 0)
+       (minimum-distance . 0)
+       (padding . -100)
+       (stretchability . 0))
+		
+	markup-system-spacing =
+    #'((basic-distance . 10)
+       (minimum-distance . 10)
+       (padding . -100)
+       (stretchability . 0))
+	
+	last-bottom-spacing =
+    #'((basic-distance . 0)
+       (minimum-distance . 0)
+       (padding . 0)
+       (stretchability . 1.0e7))
+	
+	score-system-spacing =
+    #'((basic-distance . 0)
+       (minimum-distance . 0)
+       (padding . 0)
+       (stretchability . 0))
+	
+	score-markup-spacing =
+    #'((basic-distance . 0)
+       (minimum-distance . 0)
+       (padding . 0)
+       (stretchability . 0))
+	
+	markup-markup-spacing =
+    #'((basic-distance . 0)
+       (minimum-distance . 0)
+       (padding . 0)
+       (stretchability . 0))
+	
+	bookTitleMarkup = \markup {
+		\fill-line {
+			\fontsize #3 \fromproperty #'header:movement
+		}
+	}
+	
+	system-separator-markup = \markup {
+		\center-align
+		\vcenter \combine
+		\beam #2.0 #0.5 #0.48
+		\raise #1.0 \beam #2.0 #0.5 #0.48
+	}
 }
 
 #(define-markup-command (remark layout props text) (markup?)
@@ -82,6 +136,7 @@ piuFE = #(make-dynamic-script (markup #:line (#:normal-text #:small #:italic "pi
 
 
 mvTr = \once \override TextScript.X-offset = #2
+mvTrh = \once \override TextScript.X-offset = #2.5
 mvTrr = \once \override TextScript.X-offset = #3
 hideTn = \once \override TupletNumber.stencil = ##f
 
@@ -185,13 +240,42 @@ tempoMiserere = \tempoMarkup "Adagio"
 	\context {
 		\StaffGroup
 		\override SystemStartBracket.collapse-height = #1
-% 		\override StaffGrouper.staffgroup-staff-spacing.basic-distance = #14
-% 		\override StaffGrouper.staff-staff-spacing.basic-distance = #10
+		\override StaffGrouper.staffgroup-staff-spacing =
+		  #'((basic-distance . 11)
+         (minimum-distance . 11)
+         (padding . -100)
+         (stretchability . 0))
+		\override StaffGrouper.staff-staff-spacing =
+		  #'((basic-distance . 10)
+         (minimum-distance . 10)
+         (padding . -100)
+         (stretchability . 0))
 	}
 	\context {
 		\ChoirStaff
-% 		\override StaffGrouper.staffgroup-staff-spacing.basic-distance = #16
-% 		\override StaffGrouper.staff-staff-spacing.basic-distance = #11
+		\override StaffGrouper.staffgroup-staff-spacing =
+		  #'((basic-distance . 11)
+         (minimum-distance . 11)
+         (padding . -100)
+         (stretchability . 0))
+		\override StaffGrouper.staff-staff-spacing =
+		  #'((basic-distance . 11)
+         (minimum-distance . 11)
+         (padding . -100)
+         (stretchability . 0))
+	}
+	\context {
+		\GrandStaff
+		\override StaffGrouper.staffgroup-staff-spacing =
+		  #'((basic-distance . 10)
+         (minimum-distance . 10)
+         (padding . -100)
+         (stretchability . 0))
+		\override StaffGrouper.staff-staff-spacing =
+		  #'((basic-distance . 10)
+         (minimum-distance . 10)
+         (padding . -100)
+         (stretchability . 0))
 	}
 	\context {
 		\Staff
@@ -202,13 +286,19 @@ tempoMiserere = \tempoMarkup "Adagio"
 	\context {
 		\Lyrics
 		\override LyricText.font-size = #-1
+		\override VerticalAxisGroup.nonstaff-relatedstaff-spacing =
+		  #'((basic-distance . 5.5)
+         (minimum-distance . 5.5)
+         (padding . -100)
+         (stretchability . 0))
+		\override VerticalAxisGroup.nonstaff-unrelatedstaff-spacing.padding = #-100
 	}
 	\context {
 		\FiguredBass
 		figuredBassPlusDirection = #1
-		\override VerticalAxisGroup.minimum-Y-extent = #'(0 . 1)
 		\override BassFigure.font-size = #-2
 		\override BassFigure.baseline-skip = #-3
+		\override VerticalAxisGroup.nonstaff-nonstaff-spacing.padding = #-100
 	}
 	\set figuredBassFormatter = #new-format-bass-figure
 	\context {
