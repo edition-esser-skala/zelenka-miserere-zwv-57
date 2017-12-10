@@ -8,7 +8,7 @@
 
 \version "2.18.0"
 
-MiserereAltoIncipit = \markup {
+MiserereIAltoIncipit = \markup {
 	"Alto" \hspace #-14 \score {
 		\new Staff \with {
 			\remove Time_signature_engraver
@@ -19,10 +19,10 @@ MiserereAltoIncipit = \markup {
 	} \hspace #-1.8
 }
 
-MiserereAltoNotes = {
+MiserereIAltoNotes = {
 	\relative c' {
 		\clef treble
-		\key c \dorian \time 4/4 \autoBeamOff \tempoMiserere
+		\key c \dorian \time 4/4 \autoBeamOff \tempoMiserereI
 		R1*11 %11
 		r2^\critnote \mvTr b'4.\f^\tuttiE b8
 		\once\stemUp b2( a4 g
@@ -48,7 +48,7 @@ MiserereAltoNotes = {
 	}
 }
 
-MiserereAltoLyrics = \lyricmode {
+MiserereIAltoLyrics = \lyricmode {
 	Mi -- se -- %12
 	re --
 	re, mi -- se --
@@ -69,6 +69,19 @@ MiserereAltoLyrics = \lyricmode {
 	me --
 	i, mi -- se -- %30
 	re -- re. %31 finis
+}
+
+MiserereIIAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoMiserereII
+			\set Score.currentBarNumber = #37
+		
+	}
+}
+
+MiserereIIAltoLyrics = \lyricmode {
+	
 }
 
 % AltoNotes = {

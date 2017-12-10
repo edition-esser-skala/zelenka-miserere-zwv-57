@@ -8,10 +8,10 @@
 
 \version "2.18.0"
 
-MiserereViolinoII = {
+MiserereIViolinoII = {
 	\relative c' {
 		\clef treble
-		\key c \dorian \time 4/4 \tempoMiserere
+		\key c \dorian \time 4/4 \tempoMiserereI
 		\set Staff.beamExceptions = #'()
 			\set Staff.baseMoment = #(ly:make-moment 1/2)
 			\set Staff.beatStructure = #'(1 1)
@@ -51,5 +51,14 @@ MiserereViolinoII = {
 		es4 d8 c d d([\pp c h)]
 		r c( h a) \mvTrh c4.\ff-\tenuto c8 %35
 		d4~ d~\p \once \override DynamicText.whiteout = ##t \mvTrr d2\pp-\tenuto\fermata \bar "||" %36 finis
+	}
+}
+
+MiserereIIViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoMiserereII
+			\set Score.currentBarNumber = #37
+		
 	}
 }

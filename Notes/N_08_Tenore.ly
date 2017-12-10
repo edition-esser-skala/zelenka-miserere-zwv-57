@@ -8,7 +8,7 @@
 
 \version "2.18.0"
 
-MiserereTenoreIncipit = \markup {
+MiserereITenoreIncipit = \markup {
 	"Tenore" \hspace #-15 \score {
 		\new Staff \with {
 			\remove Time_signature_engraver
@@ -19,10 +19,10 @@ MiserereTenoreIncipit = \markup {
 	} \hspace #-1.8
 }
 
-MiserereTenoreNotes = {
+MiserereITenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
-		\key c \dorian \time 4/4 \autoBeamOff \tempoMiserere
+		\key c \dorian \time 4/4 \autoBeamOff \tempoMiserereI
 		R1*11 %11
 		r2 \mvTr d4.\f^\tuttiE d8
 		d2 c~
@@ -48,7 +48,7 @@ MiserereTenoreNotes = {
 	}
 }
 
-MiserereTenoreLyrics = \lyricmode {
+MiserereITenoreLyrics = \lyricmode {
 	Mi -- se -- %12
 	re -- _
 	_ _
@@ -69,6 +69,19 @@ MiserereTenoreLyrics = \lyricmode {
 	_ us, mi -- se --
 	re -- %30
 	re. %31 finis
+}
+
+MiserereIITenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoMiserereII
+			\set Score.currentBarNumber = #37
+		
+	}
+}
+
+MiserereIITenoreLyrics = \lyricmode {
+	
 }
 
 % TenoreNotes = {

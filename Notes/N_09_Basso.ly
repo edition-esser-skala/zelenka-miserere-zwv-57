@@ -8,10 +8,10 @@
 
 \version "2.18.0"
 
-MiserereBassoNotes = {
+MiserereIBassoNotes = {
 	\relative c {
 		\clef bass
-		\key c \dorian \time 4/4 \autoBeamOff \tempoMiserere
+		\key c \dorian \time 4/4 \autoBeamOff \tempoMiserereI
 		R1*11 %11
 		\mvTr g'4.\f^\tuttiE g8 g2
 		g, g'4. g8
@@ -37,7 +37,7 @@ MiserereBassoNotes = {
 	}
 }
 
-MiserereBassoLyrics = \lyricmode {
+MiserereIBassoLyrics = \lyricmode {
 	Mi -- se -- re -- %12
 	re, mi -- se --
 	re --
@@ -58,6 +58,19 @@ MiserereBassoLyrics = \lyricmode {
 	De -- us,
 	mi -- se -- re -- %30
 	re. %31 finis
+}
+
+MiserereIIBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoMiserereII
+			\set Score.currentBarNumber = #37
+		
+	}
+}
+
+MiserereIIBassoLyrics = \lyricmode {
+	
 }
 
 % BassoNotes = {

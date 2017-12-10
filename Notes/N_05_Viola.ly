@@ -8,11 +8,11 @@
 
 \version "2.18.0"
 
-MiserereViola = {
+MiserereIViola = {
 	\relative c' {
 % 		\clef treble
 		\clef alto
-		\key c \dorian \time 4/4 \tempoMiserere
+		\key c \dorian \time 4/4 \tempoMiserereI
 		es16(-.-\markup { \remark "sempre fortissimo" } es-. es-. es-.) es(-. es-. es-. es-.) es(-. es-. es-. es-.) es(-. es-. es-. es-.)
 		es(-. es-. es-. es-.) es(-. es-. es-. es-.) f(-. c-. c-. c-.) c(-. c-. c-. c-.)
 		d(-. d-. d-. d-. d-. d-. d-. d-.) es(-. es-. es-. es-. es-. es-. es-. es-.)
@@ -49,5 +49,15 @@ MiserereViola = {
 		g(-. g-. g-. g-. g-. g-. g-. g-.) g(-.\pp g-. g-. g-. g-. g-. g-. g-.)
 		g(-. g-. g-. g-. g-. g-. g-. g-.) \mvTrh a4.\ff-\tenuto a8 %35
 		h4~ h~\p \mvTrr h2\pp-\tenuto\fermata \bar "||" %36 finis
+	}
+}
+
+MiserereIIViola = {
+	\relative c' {
+		\clef treble
+% 		\clef alto
+		\key c \major \time 4/4 \tempoMiserereII
+			\set Score.currentBarNumber = #37
+		
 	}
 }

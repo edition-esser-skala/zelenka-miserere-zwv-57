@@ -8,10 +8,10 @@
 
 \version "2.18.0"
 
-MiserereOboeII = {
+MiserereIOboeII = {
 	\relative c' {
 		\clef treble
-		\key c \dorian \time 4/4 \tempoMiserere
+		\key c \dorian \time 4/4 \tempoMiserereI
 		r2 g'16(-.^\critnote-\markup { \remark "sempre fortissimo" } g-. g-. g-. g-. g-. g-. g-.)
 		g(-. g-. g-. g-. g-. g-. g-. g-.) f(-. f-. f-. f-. f-. f-. f-. f-.)
 		f(-. f-. f-. f-.) f-.( f-. f-. f-. g-. g-. g-. g-. g-. g-. g-. g-.)
@@ -48,5 +48,14 @@ MiserereOboeII = {
 		g2.-\critnote r4
 		r2 \mvTrh fis4.\ff-\tenuto fis8 %35
 		g4 r r2\fermata \bar "||" %36 finis
+	}
+}
+
+MiserereIIOboeII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoMiserereII
+			\set Score.currentBarNumber = #37
+		
 	}
 }

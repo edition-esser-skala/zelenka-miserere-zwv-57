@@ -8,10 +8,10 @@
 
 \version "2.18.0"
 
-MiserereOrgano = {
+MiserereIOrgano = {
 	\relative c {
 		\clef bass
-		\key c \dorian \time 4/4 \tempoMiserere
+		\key c \dorian \time 4/4 \tempoMiserereI
 		\set Staff.beamExceptions = #'()
 			\set Staff.baseMoment = #(ly:make-moment 1/2)
 			\set Staff.beatStructure = #'(1 1)
@@ -54,7 +54,7 @@ MiserereOrgano = {
 	}
 }
 
-MiserereBassFigures = \figuremode {
+MiserereIBassFigures = \figuremode {
 	r2 <5 3>4 <\t \t>
 	<6- 5 3> <\t \t> <[6-] 4> <\t \t>
 	<7! [6-] 4 2> <\t \t \t \t> <8 3>2
@@ -91,6 +91,267 @@ MiserereBassFigures = \figuremode {
 	q4. <4 2>8 <5 _!>4. <_!>8
 	<6 4>4. <\t \t>8 <7+ 4 2>2 %35
 	<8 5 _!>1 %36 finis
+}
+
+MiserereIIOrgano = {
+	\relative c {
+		\clef treble
+		\key c \major \time 4/4 \tempoMiserereII
+			\set Score.currentBarNumber = #37
+		\mvTr c'2\fE-\tutti-! e-!
+		f-! d-!
+		<< {
+			g h
+			c a %40
+		} \\ {
+			c,4 e4. f8 g e
+			a g f e f c f4 %40
+		} >>
+		\clef bass c,2-\markup { \remark "sempre tenuto" \musicglyph #'"pedal.*" } e
+		f d
+		c \clef "treble_8" f4 a
+		e4. f8 \clef bass g,2
+		h c %45
+		a g-\critnote
+		\clef "treble_8" h' c
+		a g
+		\clef bass d fis
+		g e %50
+		d4 \clef "treble_8" fis4. g8 a fis
+		h2 e8 d16 cis h8 e
+		\clef bass a,,2 cis
+		d h
+		a \clef "treble_8" d4 g %55
+		d' r e,8 fis g e
+		a h c2 h4
+		\clef bass a2 cis
+		d h
+		a \clef treble << {
+			g'8-\critnote a h4~ %60
+			h c h2
+		} \\ {
+			r4 e,8 fis %60
+			gis e a2 gis8 e16 fis
+		} >>
+		\clef bass e,2 gis
+		a fis
+		e \clef "treble_8" a
+		e'8 d cis e a,4. h16 cis %65
+		d8 c h a gis4 a
+		\clef bass d,2 fis
+		g e
+		d4-\critnote \clef "treble_8" fis8 g16 a h2
+		a8 d4 c8 h c16 d e4 %70
+		c2 \clef bass g,
+		h c
+		a g4 \clef "treble_8" g'
+		c, c'4. d8 e c
+		f e16 d c8 d \clef bass c,2 %75
+		e f
+		d c
+		\clef "treble_8" r8 a'4 g8 f a e c
+		\clef bass f2 a
+		b g %80
+		f \clef "treble_8" r4 c'
+		e f d c
+		\clef bass b,2 d
+		es c
+		b \clef "treble_8" g'8 a b g %85
+		c c, c' d es c f4
+		\clef bass es,2 g
+		as f
+		es4 \clef "treble_8" c'4. b16 a b4
+		a g2 f4 %90
+		b2 \clef bass f,
+		a b
+		g f
+		\clef "treble_8" r4 f'-\tenuto a b
+		g2 f4 a8 h %95
+		\clef bass c,2 e
+		f d
+		c \clef "treble_8" f4 a
+		e4. f8 \clef bass g,2
+		h c %100
+		a g4 \clef "treble_8" g'-\tenuto
+		h2 c
+		a g
+		\clef bass d fis
+		g e %105
+		d4 \clef "treble_8" fis4. g8 a fis
+		h4 h, e'8 d16 c h8 e
+		\clef bass a,,2 cis
+		d h
+		a \clef "treble_8" d8 fis g4 %110
+		d r e8 fis g e
+		a h c2 h4
+		\clef bass a2 cis
+		d h
+		a \clef treble e'4. fis8 %115
+		gis e a4. a8 gis e16 fis
+		\clef bass e,2 gis
+		a fis
+		e \clef "treble_8" a4 e'~
+		e8 d cis e a,4. cis8 %120
+		d c h a gis4 a
+		\clef bass d,2 fis
+		g e
+		d \clef "treble_8" h'
+		a8 d4 c8 h4 e %125
+		c2 \clef bass g,
+		h c
+		a g
+		\clef "treble_8" r4 c'4. d8 e c
+		f e16 d c8 d \clef bass c,2 %130
+		e f
+		d c
+		\clef "treble_8" r8 a'4 g8 f a e4
+		\clef bass f2 a
+		b g %135
+		f4 \clef treble f'8 d e c-\critnote \clef "treble_8" c4
+		e f d c
+		\clef bass b,2 d
+		es c
+		b \clef "treble_8" g'8 a b g %140
+		c4. d8 es c f4
+		\clef bass es,2 g
+		as f
+		es4 \clef "treble_8" c'4. b16 a b4
+		a g2 f4 %145
+		b2 \clef bass f,
+		a b
+		g f
+		\clef "treble_8" r4 f' a b
+		g2 f8 g a b %150
+		\clef bass c,2 e
+		f d
+		c1~
+		\tieDashed c~-\tasto
+		c~ %155
+		\tempoMiserereIIFinis c\fermata \bar "||" %156 finis
+	}
+}
+
+MiserereIIBassFigures = \figuremode {
+	r1 %37
+	r
+	r
+	r %40
+	<4>4 <3> <6>2
+	r <6->4 <5>
+	<6 3>8 <\l 4> <5 4> <\l 3> <7> <6> <5 4> <\t 3>
+	<6>2 <5 4>4 <\t 3>
+	<6>1 %45
+	<7>4 <6\\> <5>2
+	<6> <5>
+	<7>4 <6\\> r2
+	<5 _+>4 <6 \t> <6>2
+	r <7>4 <6\\> %50
+	<_+> <6> <5+ 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<7>4 <6\\> <_+>8 <6 _+> <7> <_+>
+	<_+>2 <6>
+	<_+> <7>4 <6\\>
+	<4> <_+> <_+>2 %55
+	q <5 3>8 <\t \t> <6> <6->
+	<5>4 <6 3> <5+ 2>8 <6> <7 3> <6\\>
+	<_+>2 <6>
+	<5 _+> <6\\ 3>8 \bassFigureExtendersOn <7 3> <7\! 3> <6\\ 3> \bassFigureExtendersOff
+	<4>4 <_+> r2 %60
+	r1
+	<5 _+>2 <6>
+	<5 _+> <5+>
+	<5 _+>8 <6 4> <5 \t> <\t _+> <_+>2
+	<_+>4 <5+>8 <\t> <5 _+>4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff %65
+	<5 _+>8 <\t \t> <5+> <\t> <6 5>4 <_!>
+	<7 _+>8 \bassFigureExtendersOn <6 _+> <5 _+>4 \bassFigureExtendersOff <6>2
+	<5> <7>4 <6\\>
+	<_+> <6> <7> <6\\>
+	<8 6\\>8 <_+>4 <\t>8 <6> <\t> <5>4 %70
+	<7> <6> r2
+	<6> <9 3>4 <8>
+	<7> <6\\> <5 4> <5 3>
+	r2. <6>4
+	<5> <5 3>8 <\t \t> r2 %75
+	<6> <5>
+	q4 <6-> <7- 3>4 <6 4>8 <5 3>
+	r <6 3>4 <\t \t>8 <5> <\t> <6>4
+	<9 3>4 <8 \t> <[6]>2
+	<7 3>8 <6> <5>4 <7 _->4 <6> %80
+	r2. <5>4
+	<6> <\t> <6- 3>8 <5 \t> <6 3>4
+	<7> <6> <5>2
+	<5-> <7- _->4 <6>
+	<5>2 <5 _->4 <6>8 <\t> %85
+	<5 _->4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <6>4 <5 _->
+	<5->2 <6- _!>8 <\t 4> <5 4> <\t _!>
+	<5- 3>2 <7 _->4 <6>
+	r <5 _-> <4 2> <5 _->8 <6>
+	<6 3>4 <5 _-> <6-> <5 3> %90
+	<7> <6> <5 3> <6 \t>
+	<5 4> <\t 3> <5>2
+	<7 _->4 <6> r2
+	r <6>4 q8 <5>
+	<5 _->4 <6> r <6>8 <6 5> %95
+	<5 4>4 <\t 3> <6>2
+	<5> <6- 3>4 <5 \t>
+	<6> <5> <7>8 <6> <5 4> <\t 3>
+	<6>2 <5 4>4 <\l 3>
+	<6>2 <5> %100
+	<7>4 <6\\> r2
+	<6> <5>
+	<7>4 <6\\> <5 4> <\l 3>
+	<5 _+> <6 \t> <6>2
+	<5 3> <7>4 <6\\> %105
+	<_+> <6 3> <5+ 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<7>4 <6\\> <5 _+>8 <5 _+>16 <\t \t> <7 3>8 <_+>
+	<_+>2 <6>
+	<_+> <7>4 <6\\>
+	<4> <_+> <5 _+>8 <\t \t> <5>4 %110
+	<_+>2 <5 3>8 <\t \t> <6>4
+	<5 3>8 <\t \t> <5 3>4 <5+ 2>8 <6 \t> <7 3> <6\\>
+	<_+>2 <6>
+	<_+> <6\\ 3>8 <7 \t> <7 3> <6\\ \t>
+	<4>4 <_+> <5 _+>4. <\t \t>8 %115
+	<6>4 <5 _+> <4 2> <6 3>8 <\t \t>
+	<_+>2 <6>
+	<_+> <5+ 3>
+	<5 _+>8 <6\\ 4> <5 4> <\l _+> <_+>4 q
+	r8 <\t> <5+> <_+> q4. <\t>8 %120
+	<5 _+> <\t \t> <5+ 3> <\t \t> <6 5>4 <5 _!>
+	<7! _+>4 <6 \t> <6>2
+	r <7>4 <6\\>
+	<_+>2 <7>4 <6\\>
+	<8 6\\>8 <5 _+>4 <\t \t>8 <6>4 <5> %125
+	<7 3> <6 \t> <5 3>2
+	<6> <9 3>4 <8 \t>
+	<7> <6\\> r2
+	r4 <5>2 <6>8 <\t>
+	<5 3> <\t \t> <5>4 <5>2 %130
+	<6> <9>4 <8>
+	<7 3> <6- \t> <7- 5>4 <6 4>8 <5 3>
+	<6 3>4 <5>8 <\t> <5 3> <\t \t> <6>4
+	<9 3> <8> <5> <6>
+	<7 3> <6>8 <5> <7 _->4 <6> %135
+	r r8 <6!> <6>4 <5>
+	<6> <5> <6-> <6>
+	<7> <6> <5>2
+	<[5-] 3> <7- _->4 <6 \t>
+	<5 3>2 <5 _->4 <6 3> %140
+	<5 _->4. <\t \t>8 <6 3> <\t \t> <5 _-> <6>
+	<5->2 <[6-] 4!>4 <5 4>8 <\t _!>
+	<5->2 <7 _->4 <6>
+	<7> <5 _->4. <\t \t>8 <5> <6>
+	<6>4 <5 _-> <6- \t> <6>8 <5> %145
+	<7>4 <6> r2
+	<5 4>4 <\t 3> <5 3>2
+	<7 _->4 <6!> r2
+	r4 <5> <6> q8 <5>
+	<7 _->4 <6 \t> <5> <6>8 <6 5> %150
+	<4>4 <3> <6 3> <5- \t>
+	<5>2 <7>4 <6!>
+	<5 3>2 <6 4>4 <5 3>
+	r1
+	r2 <5 3>4 <6 4> %155
+	<5 4>4 \bassFigureExtendersOn <5 3>8 <5 2> \bassFigureExtendersOff <5 3>2 %156 finis
 }
 
 % Organo = {

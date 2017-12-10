@@ -8,7 +8,7 @@
 
 \version "2.18.0"
 
-MiserereSopranoIncipit = \markup {
+MiserereISopranoIncipit = \markup {
 	"Soprano" \hspace #-16 \score {
 		\new Staff \with {
 			\remove Time_signature_engraver
@@ -19,10 +19,10 @@ MiserereSopranoIncipit = \markup {
 	} \hspace #-1.8
 }
 
-MiserereSopranoNotes = {
+MiserereISopranoNotes = {
 	\relative c' {
 		\clef treble
-		\key c \dorian \time 4/4 \autoBeamOff \tempoMiserere
+		\key c \dorian \time 4/4 \autoBeamOff \tempoMiserereI
 		R1*12 %12
 		\mvTr es'4.\f^\tuttiE es8 es2(
 		fis4.) fis8 g2
@@ -47,7 +47,7 @@ MiserereSopranoNotes = {
 	}
 }
 
-MiserereSopranoLyrics = \lyricmode {
+MiserereISopranoLyrics = \lyricmode {
 	Mi -- se -- re -- %13
 	re me --
 	i, mi -- se -- re -- %15
@@ -67,6 +67,18 @@ MiserereSopranoLyrics = \lyricmode {
 	De -- us, mi -- se --
 	re -- %30
 	re. %31 finis
+}
+
+MiserereIISopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoMiserereII
+			\set Score.currentBarNumber = #37
+	}
+}
+
+MiserereIISopranoLyrics = \lyricmode {
+	
 }
 
 % SopranoNotes = {
