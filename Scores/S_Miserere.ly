@@ -13,16 +13,9 @@
 \book {
 	\bookpart {
 		\header {
-			title = \markup {
-				\medium \center-column {
-					\normal-text \larger \larger \line { Miserere }
-					\smaller \smaller \smaller \line { ZWV 57 }
-				}
-			}
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger " " }
-			composer = \markup { \larger "Dresden, 1738" }
+			movement = "1 MISERERE"
 		}
-% 		\paper { max-systems-per-page = #2 }
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<

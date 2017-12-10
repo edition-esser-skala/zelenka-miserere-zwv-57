@@ -46,7 +46,7 @@ MiserereOboeI = {
 		g1~
 		g~
 		g2. r4
-		r2 fis4.\ff^\tenuto fis8 %35
+		r2 \mvTrh fis4.\ff-\tenuto fis8 %35
 		g4 r r2\fermata \bar "||" %36 finis
 	}
 }

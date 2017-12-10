@@ -43,11 +43,11 @@ MiserereViola = {
 		g(-. g-. g-. g-. g-. g-. g-. g-. d-. d-. d-. d-. g-. g-. g-. g-.)
 		g(-. g-. g-. g-. g-. g-. g-. g-.) g(-. g-. g-. g-. g-. g-. g-. g-.)
 		as(-. as-. as-. as-. as-. as-. g-. g-.) a(-. a-. a-. a-. a-. a-. a-. a-.) %30
-		g(-. g-. g-. g-. g-. g-. g-. g-.) g(-. g,-. g-. g-. g-. g'-. g-. g-.)
+		g(-. g-. g-. g-. g-. g-. g-. g-.) \shape #'((0 . 0) (0 . -0.5) (0 . -0.5) (0 . 0)) Slur g(-. g,-. g-. g-. g-. g'-. g-. g-.)
 		es(-. es-. es-. es-. es-. es-. es-. es-.) h(-. d-. d-. d-. d-. h-. h-. h-.)
 		h?(-. h-. h-. h-. h-. g-. g-. g-. g-. g-. g-. g-. g-. g-. g-. g-.)
 		g(-. g-. g-. g-. g-. g-. g-. g-.) g(-.\pp g-. g-. g-. g-. g-. g-. g-.)
-		g(-. g-. g-. g-. g-. g-. g-. g-.) a4.\ff^\tenuto a8 %35
+		g(-. g-. g-. g-. g-. g-. g-. g-.) \mvTrh a4.\ff-\tenuto a8 %35
 		h4~ h~\p \mvTrr h2\pp-\tenuto\fermata \bar "||" %36 finis
 	}
 }

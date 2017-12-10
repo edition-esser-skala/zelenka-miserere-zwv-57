@@ -49,7 +49,7 @@ MiserereViolinoI = {
 		r g( f es) r as( g f)
 		r d'( c h) c c, c'4~
 		c h8 a h f([\pp es d)]
-		r es( d c) fis4.\ff^\tenuto fis8 %35
+		r es( d c) \mvTrh fis4.\ff-\tenuto fis8 %35
 		g4~ g~\p \mvTrr g2\pp-\tenuto\fermata \bar "||" %36 finis
 	}
 }

@@ -9,7 +9,7 @@
 \version "2.18.0"
 
 MiserereSopranoIncipit = \markup {
-	"Soprano" \hspace #-18.3 \score {
+	"Soprano" \hspace #-16 \score {
 		\new Staff \with {
 			\remove Time_signature_engraver
 		} {
