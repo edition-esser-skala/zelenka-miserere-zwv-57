@@ -137,7 +137,7 @@ MiserereIIOrgano = {
 		a fis
 		e \clef "treble_8" a
 		e'8 d cis e a,4. h16 cis %65
-		d8 c h a gis4 a
+		d8 cis? h a gis4 a
 		\clef bass d,2 fis
 		g e
 		d4-\critnote \clef "treble_8" fis8 g16 a h2
@@ -251,7 +251,7 @@ MiserereIIBassFigures = \figuremode {
 	<_+>2 <6>
 	<_+> <7>4 <6\\>
 	<4> <_+> <_+>2 %55
-	q <5 3>8 <\t \t> <6> <6->
+	q <5 3>8 <\t \t> <6> <6!>
 	<5>4 <6 3> <5+ 2>8 <6> <7 3> <6\\>
 	<_+>2 <6>
 	<5 _+> <6\\ 3>8 \bassFigureExtendersOn <7 3> <7\! 3> <6\\ 3> \bassFigureExtendersOff

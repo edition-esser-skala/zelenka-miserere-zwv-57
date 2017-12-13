@@ -13,7 +13,7 @@
 \book {
 	\bookpart {
 		\header {
-			movement = "1 MISERERE"
+			movement = "MISERERE"
 		}
 		\paper { systems-per-page = #2 }
 		\score {

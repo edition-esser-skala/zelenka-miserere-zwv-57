@@ -12,9 +12,6 @@
 
 \book {
 	\bookpart {
-		\header {
-			movement = "2 MISERERE"
-		}
 % 		\paper { systems-per-page = #2 }
 		\score {
 			<<
