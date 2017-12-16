@@ -145,7 +145,7 @@ MiserereIISopranoNotes = {
 		d4. d8 h2
 		a1
 		R
-		r8 a4 g8 fis([ a h)] a16 g %110
+		r8 a4 g8 fis([ a] h) a16 g %110
 		a8 d, d' c16 c h8 g r c~
 		c([ h)] a c gis( a4) gis8
 		a2. r4
@@ -156,7 +156,7 @@ MiserereIISopranoNotes = {
 		r4 a4.( h8) cis a16 a
 		h8([ cis)] h e16([ d16)] cis4 h
 		r e4. d8 cis([ e)] %120
-		a, h16([ c)] d4. d8 c4~
+		a, h16([ c)] d4. d8 c!4~
 		c h a d~
 		d8([ c)] h([ d]) g,[( a] h[ a16 g]
 		fis8[ g] a4. gis16[ fis] gis4)
