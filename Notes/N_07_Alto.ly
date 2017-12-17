@@ -9,7 +9,7 @@
 \version "2.18.0"
 
 MiserereIAltoIncipit = \markup {
-	"Alto" \hspace #-14 \score {
+	"Alto" \hspace #-15 \score {
 		\new Staff \with {
 			\remove Time_signature_engraver
 		} {

@@ -6,13 +6,13 @@
 
 \include "../definitions.ly"
 
-\paper { first-page-number = #1 }
+\paper { first-page-number = #10 }
 
-#(set-global-staff-size 14.14)
+#(set-global-staff-size 15.87)
 
 \book {
 	\bookpart {
-% 		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #1 }
 		\score {
 			<<
 				\new StaffGroup <<

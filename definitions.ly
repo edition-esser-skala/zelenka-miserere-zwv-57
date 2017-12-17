@@ -7,21 +7,22 @@
 
 
 \paper {
+	#(set-paper-size "a4" 'landscape)
 	two-sided = ##t
-	top-margin = 0.5\cm
-	bottom-margin = 0.5\cm
+	top-margin = 1\cm
+	bottom-margin = .5\cm
 	outer-margin = 2\cm
 	inner-margin = 1.5\cm
-	indent = 2\cm
+	indent = 2.5\cm
 	
-	oddHeaderMarkup = \markup {}
-	evenHeaderMarkup = \markup {}
-	oddFooterMarkup = \markup {
+	oddFooterMarkup = \markup {}
+	evenFooterMarkup = \markup {}
+	oddHeaderMarkup = \markup {
 		\fill-line {
 			" " \fromproperty #'page:page-number-string
 		}
 	}
-	evenFooterMarkup = \markup {
+	evenHeaderMarkup = \markup {
 		\fromproperty #'page:page-number-string
 	}
 	
@@ -32,8 +33,8 @@
        (stretchability . 0))
 	
 	top-system-spacing =
-    #'((basic-distance . 10)
-       (minimum-distance . 10)
+    #'((basic-distance . 12)
+       (minimum-distance . 12)
        (padding . -100)
        (stretchability . 0))
 	
@@ -44,8 +45,8 @@
        (stretchability . 0))
 		
 	markup-system-spacing =
-    #'((basic-distance . 10)
-       (minimum-distance . 10)
+    #'((basic-distance . 12)
+       (minimum-distance . 12)
        (padding . -100)
        (stretchability . 0))
 	
@@ -243,39 +244,39 @@ tempoMiserereIIFinis = \tempoMarkup "Adagio"
 		\StaffGroup
 		\override SystemStartBracket.collapse-height = #1
 		\override StaffGrouper.staffgroup-staff-spacing =
-		  #'((basic-distance . 11)
-         (minimum-distance . 11)
+		  #'((basic-distance . 15)
+         (minimum-distance . 15)
          (padding . -100)
          (stretchability . 0))
 		\override StaffGrouper.staff-staff-spacing =
-		  #'((basic-distance . 10)
-         (minimum-distance . 10)
+		  #'((basic-distance . 12)
+         (minimum-distance . 12)
          (padding . -100)
          (stretchability . 0))
 	}
 	\context {
 		\ChoirStaff
 		\override StaffGrouper.staffgroup-staff-spacing =
-		  #'((basic-distance . 11)
-         (minimum-distance . 11)
+		  #'((basic-distance . 15)
+         (minimum-distance . 15)
          (padding . -100)
          (stretchability . 0))
 		\override StaffGrouper.staff-staff-spacing =
-		  #'((basic-distance . 11)
-         (minimum-distance . 11)
+		  #'((basic-distance . 12)
+         (minimum-distance . 12)
          (padding . -100)
          (stretchability . 0))
 	}
 	\context {
 		\GrandStaff
 		\override StaffGrouper.staffgroup-staff-spacing =
-		  #'((basic-distance . 10)
-         (minimum-distance . 10)
+		  #'((basic-distance . 12)
+         (minimum-distance . 12)
          (padding . -100)
          (stretchability . 0))
 		\override StaffGrouper.staff-staff-spacing =
-		  #'((basic-distance . 10)
-         (minimum-distance . 10)
+		  #'((basic-distance . 12)
+         (minimum-distance . 12)
          (padding . -100)
          (stretchability . 0))
 	}
@@ -289,8 +290,8 @@ tempoMiserereIIFinis = \tempoMarkup "Adagio"
 		\Lyrics
 		\override LyricText.font-size = #-1
 		\override VerticalAxisGroup.nonstaff-relatedstaff-spacing =
-		  #'((basic-distance . 5.5)
-         (minimum-distance . 5.5)
+		  #'((basic-distance . 6)
+         (minimum-distance . 6)
          (padding . -100)
          (stretchability . 0))
 		\override VerticalAxisGroup.nonstaff-unrelatedstaff-spacing.padding = #-100

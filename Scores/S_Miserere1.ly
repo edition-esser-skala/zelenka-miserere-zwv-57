@@ -8,17 +8,17 @@
 
 \paper { first-page-number = #1 }
 
-#(set-global-staff-size 14.14)
+#(set-global-staff-size 15.87)
 
 \book {
 	\bookpart {
 		\header {
 			movement = "MISERERE"
 		}
-		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #1 }
 		\score {
 			<<
-				\new StaffGroup <<
+				\new GrandStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Oboe I"
 						\MiserereIOboeI
