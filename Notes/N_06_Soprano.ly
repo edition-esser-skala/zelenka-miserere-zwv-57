@@ -120,7 +120,7 @@ MiserereIISopranoNotes = {
 		c4 c b8([ a)] a4~
 		a8 a g([ b)] a2
 		R1
-		r8 b4\f^\tenutoE b8 d4 d %85
+		r8 \mvTr b4\f^\tenutoE b8 d4 d %85
 		es4. es8 c2(
 		b4 es2) d4
 		r8 c4( b8) as([ g] as) b16([ as)]

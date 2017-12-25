@@ -76,12 +76,239 @@ MiserereIITenoreNotes = {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoMiserereII
 			\set Score.currentBarNumber = #37
-		
+		R1*4 %40
+		r2 r4 \mvTr c~\fE^\tuttiE
+		c8 b a c f,([ g)] a([ h)]
+		c4. c8 f,4 a8 a
+		e e e f16 f g4 g
+		r g4. f16 f e8 g %45
+		c4 c, r8 \mvTr g'4\fE^\tenutoE g8
+		h4 h c4. c8
+		a2 g
+		fis4 h a r8 d~
+		d c h([ d)] g,([ a)] h([ cis)] %50
+		d4 fis,4. g8 a fis
+		h4 h e8([ d16 cis?] h8[ e])
+		cis2 r4 a~
+		a8([ g)] fis a d,([ e)] fis([ gis)]
+		a4 e d g %55
+		d' r e,8([ fis)] g e
+		a([ h] c2) h4
+		r8 \mvTr cis4\f^\tenutoE cis8 e4 e
+		fis fis d2~
+		d4 cis r2 %60
+		R1*2
+		r4 cis4. h8 a cis
+		gis( a4 gis8) a2
+		e'8 d cis([ e)] a,4. h16([ cis)] %65
+		d8([ cis h a] gis4 a)
+		a2 r
+		h8 c d h e d4 cis8
+		d[ d,] fis[ g16 a] h2
+		a8 d4 c8 h h e4 %70
+		c4. c8 d4 g,
+		r g4.( f8) e([ g)]
+		c, d e d16([ c)] d4( g)
+		c, c'4.( d8) e([ c)]
+		f e16([ d)] c8 d^\critnote e4 e,8.[ f16] %75
+		g4 c c2
+		R1
+		r8 a4 g8 f([ a)] e4
+		a8. a16 a8 h c8. d16 e8 f
+		d2. c8[( b]) %80
+		c2 r4 c8. c16
+		e8 e f8. f16 d4( c)
+		b2 f8([ g)] a([ f)]
+		g[( a] b2 a4)
+		b2 g8([ a)] b g %85
+		c4. d8 es c f8. f16
+		b,4 g8 a h( c4 h!8)
+		c c es es es4 d~
+		d c4. b16[ a!] b4
+		a g2 f4 %90
+		b2 f
+		r4 f8 e d g f4~
+		f8 f e4 f2
+		r4 f8. f16 a8 a b8. b16
+		g2 f4 a8([ h)] %95
+		c([ g)] c8. c16 g4 r8 c~
+		c b a c16 c f,8([ g)] a([ h?)]
+		c4. c8 f,4 a
+		e4. f8 g2
+		r4 g4.( f8) e g %100
+		c4 c, r8 \mvTr g'4\fE^\tenutoE g8
+		h4 h c4. c8
+		a2 g
+		fis4 h a r8 d~
+		d([ c)] h d g, a h cis %105
+		d d, fis4.( g8[ a fis])
+		h8. h16 h4 e8 d16([ c)] h8 e
+		cis2 r4 a~
+		a8([ g)] fis([ a)] d,([ e)] fis gis
+		a8. a16 e4 d( g) %110
+		d r e8([ fis)] g e16 e
+		a8 h c2 h4
+		r8 \mvTr cis4\fE^\tenutoE cis8 e4 e
+		fis fis d2~
+		d4 cis r2 %115
+		R1*2
+		r4 cis4.( h8) a8([ cis)]
+		gis a a[( gis)] a4 e'~
+		e8 d cis([ e)] a,4. cis8 %120
+		d c16 c h8 a gis gis a4~
+		a h8[ c] d4. c8
+		h c d h e( d4 cis8
+		d) d, fis g16([ a)] h2
+		a8 d4 c8 h h e e %125
+		c4 c8 c d4 g,
+		r g4.( f8) e g
+		c, d e[( d16 c] d4 g)
+		c, c'4.( d8) e c
+		f e16([ d)] c8 d^\critnote e4 e,8 e %130
+		g4 g8 g c2(
+		f,) g4^\critnote r
+		r8 a4 g8 f a e e
+		a a a b? c d e f
+		d4 d d c8([ b)] %135
+		c4^\critnote r r c8. c16
+		e8 e f8. f16 d4( c)
+		b r f8 g a f16 f
+		g8([ a] b2 a4)
+		b2 g8.^\critnote a16 b8 g %140
+		c4. d8 es([ c] f4)
+		b, g8 a h( c4 h!8)
+		c4 es4. es8 d4~
+		d8 d c4. b16[ a!] b4
+		a g4. g8 f f %145
+		b4. b8 c4^\critnote r
+		r f,8 es d d^\critnote f4~
+		f8 f e4 f2
+		r4 f8 f a a b b
+		g2 f8 g a b? %150
+		c g c2 b8 b
+		a2. f4
+		g8([ f)] e g4 f e16([ g)]
+		a4. a8 g4 f
+		e c'8([ b16 a]) g8 c a g16([ f)] %155
+		\tempoMiserereIIFinis g8 c, g'8. g16 g2\fermata \bar "||" %156 finis
 	}
 }
 
 MiserereIITenoreLyrics = \lyricmode {
+	Et __ %41
+	se -- cun -- dum mul -- ti --
+	tu -- di -- nem mi -- se --
+	ra -- ti -- o -- num tu -- a -- rum,
+	de -- le in -- i -- qui -- %45
+	ta -- tem. Mi -- se --
+	re -- re me -- i
+	De -- _
+	_ _ us. Am --
+	pli -- us __ la -- va __ %50
+	me ab in -- i -- qui --
+	ta -- te me --
+	a, et __
+	a pec -- ca -- to __
+	me -- o mun -- da %55
+	me, e -- go co --
+	gno -- sco. Mi -- se --
+	re -- re me -- i
+	De --
+	us. %60
 	
+	Con -- tra me est %63
+	sem -- per,
+	ti -- bi so -- li pec -- %65
+	ca --
+	vi,
+	ut ju -- sti -- fi -- ce -- _ _
+	_ _ _
+	ris, ut ju -- sti -- fi -- ce -- %70
+	ris, et vin -- cas,
+	et __ vin --
+	cas cum ju -- di -- ca
+	-- ris, et __ vin --
+	cas cum ju -- di -- ca -- _ %75
+	_ _ ris,
+	
+	ec -- ce e -- nim
+	in in -- i -- qui -- ta -- ti -- bus con --
+	ce -- ptus __ %80
+	sum. Mi -- se --
+	re -- re me -- i De --
+	us. Ec -- ce __
+	e --
+	nim, in -- cer -- ta %85
+	et oc -- cul -- ta sa -- pi --
+	en -- ti -- ae tu --
+	ae ma -- ni -- fe -- sta -- _
+	_ _ _
+	_ _ sti %90
+	mi -- hi,
+	su -- per ni -- vem de --
+	al -- ba -- bor.
+	Mi -- se -- re -- re me -- i
+	De -- us. Da -- %95
+	bis __ gau -- di -- um, da --
+	bis gau -- di -- um et __ lae --
+	ti -- ti -- am, lae --
+	ti -- ti -- am
+	et __ ex -- sul -- %100
+	ta -- bunt. Mi -- se --
+	re -- re me -- i
+	De -- _
+	_ _ us. Cor __
+	mun -- dum cre -- a in me, %105
+	De -- us, et __
+	spi -- ri -- tum re -- ctum in -- no --
+	va, in --
+	no -- va __ in vi --
+	sce -- ri -- bus me -- %110
+	is, et __ spi -- ri -- tum
+	san -- ctum tu -- um.
+	Mi -- se -- re -- re
+	me -- i De --
+	us. %115
+	
+	Do -- ce -- %118
+	bo in -- i -- quos vi --
+	as tu -- as, et %120
+	im -- pi -- i ad te con -- ver -- ten --
+	_ _ tur,
+	ad te con -- ver -- ten --
+	tur, con -- ver -- ten --
+	tur, li -- be -- ra me de san -- %125
+	gui -- ni -- bus, De -- us,
+	De -- us sa --
+	lu -- tis me --
+	ae, et __ ex -- sul --
+	ta -- bit __ lin -- gua me -- a ju -- %130
+	sti -- ti -- am tu --
+	am,
+	quo -- ni -- am si vo -- lu --
+	is -- ses sa -- cri -- fi -- ci -- um, de --
+	dis -- sem u -- ti -- %135
+	que. Mi -- se --
+	re -- re me -- i De --
+	us. Sa -- cri -- fi -- ci -- um
+	De --
+	o spi -- ri -- tus con -- %140
+	tri -- bu -- la --
+	tus, cor con -- tri --
+	tum et hu -- mi --
+	li -- a -- tum, De --
+	us, De -- us, non de -- %145
+	spi -- ci -- es,
+	ut ae -- di -- fi -- cen --
+	tur mu -- ri.
+	Mi -- se -- re -- re me -- i
+	De -- us. Ob -- la -- ti --
+	o -- nes et ho -- lo --
+	cau -- sta,
+	su -- per al -- ta -- re __
+	tu -- um vi -- tu --
+	los, su -- per al -- ta -- re
+	tu -- um vi -- tu -- los.
 }
 
 % TenoreNotes = {
