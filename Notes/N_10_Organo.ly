@@ -128,7 +128,7 @@ MiserereIIOrgano = {
 		d h
 		a \clef treble << {
 			g'8-\critnote a h4~ %60
-			h c h2
+			h c! h2
 		} \\ {
 			r4 e,8 fis %60
 			gis e a2 gis8 e16 fis

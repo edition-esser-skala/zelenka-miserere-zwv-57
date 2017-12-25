@@ -78,7 +78,7 @@ MiserereIIAltoNotes = {
 			\set Score.currentBarNumber = #37
 		\mvTr c4.\fE^\tuttiE^\tenuto c8 e4 e
 		f4. f8 d2
-		c8 c e e e([ f)] g e
+		c8 c e e e([ f?)] g e
 		a([ g)] f([ e)] f c16 c f4~ %40
 		f e g8. f16 e8 g
 		c, c c8. c16 d4 f
@@ -148,7 +148,7 @@ MiserereIIAltoNotes = {
 		fis4. g8 a2~
 		a4 gis8[ fis] gis a4 gis8
 		a4 r8 e4( d8) cis[( e])
-		fis([ g)] a fis fis8. e16 d4
+		fis([ g!)] a fis fis8. e16 d4
 		d cis r8 \mvTr d4\f^\tenuto d8 %110
 		fis4 fis g4. g8
 		e2( d)
@@ -185,7 +185,7 @@ MiserereIIAltoNotes = {
 		es2 r
 		g8([ f)] es g d4. d8
 		c c d d es4( d8[ c)] %145
-		c4 d8 e! f c d4~
+		d4 d8 e! f c d4~
 		d8 d c4 d4.( c8)
 		b([ d)] g,8. g16 a4 c8. c16
 		e8 e f4. f8 d4
@@ -193,7 +193,7 @@ MiserereIIAltoNotes = {
 		f e4. f8 g e
 		a4 f r2
 		e8([ f)] g([ e)] a4 g
-		f f8 f e4( f8[ c]~)
+		f f8 f e4(^\critnote f8[ c]~)
 		c d e4. e8 f4~ %155
 		\tempoMiserereIIFinis f e8[( d]) e2\fermata \bar "||" %156 finis
 	}

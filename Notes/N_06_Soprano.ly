@@ -93,17 +93,17 @@ MiserereIISopranoNotes = {
 		r8 a4 g8 fis a h a16([ g)] %55
 		a8 d, d'([ c)] h4 r8 c!~
 		c([ h)] a c gis( a4 gis8)
-		a2. r4
+		a2.^\critnote r4
 		fis8 g a fis gis( a4 gis8)
 		a4 e8 fis g a h4~ %60
-		h c h2~
+		h c! h2~
 		h h
 		r4 a4. h8 cis a
 		h([ cis] h4) cis2
 		r4 e4. d8 cis([ e)] %65
-		a, h16([ cis)] d2( c4~
-		c8[ h)] a4 r d~
-		d8([ c)] h([ d)] g, a h a16([ g)]
+		a, h16([ cis)] d2 c4~
+		c8[ h] a4 r d~
+		d8([ c!)] h([ d)] g, a h a16([ g)]
 		fis8([ gis] a4. gis16[ fis] gis4)
 		a r8 d4 c8 h h %70
 		h4( a h4. a8)
@@ -125,7 +125,7 @@ MiserereIISopranoNotes = {
 		b4 es2) d4
 		r8 c4( b8) as([ g] as) b16([ as)]
 		g2 r4 f8([ g)]
-		a f b a g f16([ g)] a4~ %90
+		a! f b a g f16([ g)] a4~ %90
 		a8([ g16 f] g4 a4. g16[ f]
 		e4 a) f2
 		r r4 a8([ b]
@@ -148,7 +148,7 @@ MiserereIISopranoNotes = {
 		r8 a4 g8 fis([ a] h) a16 g %110
 		a8 d, d' c16 c h8 g r c~
 		c([ h)] a c gis( a4) gis8
-		a2. r4
+		a2.^\critnote r4
 		fis8 g a fis gis( a4 gis8)
 		a a e fis16 fis gis8 a h4~ %115
 		h cis8 cis h2~
@@ -190,7 +190,7 @@ MiserereIISopranoNotes = {
 		c8([ b)] a([ c)] f,([ g a h]
 		c2) c,
 		r c'8([ b)] a c
-		g'4 g, c4. h16[ a] %155
+		g'4 g, c4. h16[( a]) %155
 		\tempoMiserereIIFinis g4. g8 g2\fermata \bar "||" %156 finis
 	}
 }
@@ -222,7 +222,7 @@ MiserereIISopranoLyrics = \lyricmode {
 	con -- tra me est
 	sem -- per.
 	Ti -- bi so -- %65
-	li pec -- ca --
+	li pec -- ca -- _
 	vi, et __
 	ma -- lum co -- ram te __
 	fe --
@@ -244,7 +244,7 @@ MiserereIISopranoLyrics = \lyricmode {
 	Mi -- se -- re -- re %85
 	me -- i, De --
 	us.
-	As -- per -- ges
+	As -- per -- ges __
 	me et __
 	su -- per ni -- vem de -- al -- ba -- %90
 	
@@ -311,7 +311,7 @@ MiserereIISopranoLyrics = \lyricmode {
 	im -- po --
 	nent
 	su -- per al --
-	ta -- re tu -- um %155
+	ta -- re tu -- um __ %155
 	vi -- tu -- los. %156 finis
 }
 

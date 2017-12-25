@@ -302,13 +302,13 @@ MiserereIITenoreLyrics = \lyricmode {
 	ut ae -- di -- fi -- cen --
 	tur mu -- ri.
 	Mi -- se -- re -- re me -- i
-	De -- us. Ob -- la -- ti --
+	De -- us. Ob -- la -- ti -- %150
 	o -- nes et ho -- lo --
 	cau -- sta,
 	su -- per al -- ta -- re __
 	tu -- um vi -- tu --
-	los, su -- per al -- ta -- re
-	tu -- um vi -- tu -- los.
+	los, su -- per al -- ta -- re %155
+	tu -- um vi -- tu -- los. %156 finis
 }
 
 % TenoreNotes = {
