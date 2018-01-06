@@ -107,7 +107,7 @@ MiserereIITenoreNotes = {
 		d[ d,] fis[ g16 a] h2
 		a8 d4 c8 h h e4 %70
 		c4. c8 d4 g,
-		r g4.( f8) e([ g)]
+		r g4.( fis?8) e([ g)]
 		c, d e d16([ c)] d4( g)
 		c, c'4.( d8) e([ c)]
 		f e16([ d)] c8 d^\critnote e4 e,8.[ f16] %75
