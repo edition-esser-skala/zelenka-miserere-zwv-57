@@ -289,11 +289,6 @@ tempoMiserereIIFinis = \tempoMarkup "Adagio"
 	\context {
 		\Lyrics
 		\override LyricText.font-size = #-1
-		\override VerticalAxisGroup.nonstaff-relatedstaff-spacing =
-		  #'((basic-distance . 6)
-         (minimum-distance . 6)
-         (padding . -100)
-         (stretchability . 0))
 		\override VerticalAxisGroup.nonstaff-unrelatedstaff-spacing.padding = #-100
 	}
 	\context {
