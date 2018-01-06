@@ -60,7 +60,7 @@ MiserereIIOboeI = {
 		\mvTr g'2\f-\tenuto h
 		c a %40
 		g r8 c4 b8
-		a4 c b8 b a4~
+		a4 c b a~
 		a8 a g4 a8 a e e
 		g4. f16 e d4 g
 		d r r c'~ %45
@@ -86,12 +86,12 @@ MiserereIIOboeI = {
 		a, h16 cis d2 c4~
 		c8 h a4 r d~
 		d8 c! h d g, a h a16 g
-		fis8 gis a4. gis16 fis gis4
-		a r8 d4 c8 h h %70
+		fis8 gis a4. gis16 fis gis8.\trill-\critnote a16
+		a4 r8 d4 c8 h h %70
 		h4 a h4. a8
 		g4 r e8 fis g e
 		a g4 fis8 g4 d
-		e r e'8 d c e
+		e r e'8.-\critnote d16 c8 e
 		a, h c4. h16 a g4 %75
 		c, r r8 f4 g8
 		a f b4. b8 a g
@@ -115,7 +115,7 @@ MiserereIIOboeI = {
 		b4. a16 g a2 %95
 		g r8 c4 b8
 		a a16 b c8 c b4 a~
-		a g8. g16 a8 g16 f e8 g
+		a g8. g16 a8 g16 f e8 f
 		g4. f16 e d4 d'
 		g,8 d' g4 r r8 c,~ %100
 		c h a c h g r h~
@@ -156,7 +156,7 @@ MiserereIIOboeI = {
 		a a a h c8. c16 c8 c
 		c4 c8 c b a a4~
 		a g8 b a d, d'8. c16
-		b2 r
+		b8-\critnote r r4 r2
 		\mvTr b2\f-\tenuto d %140
 		es c
 		b4 es2 d4
