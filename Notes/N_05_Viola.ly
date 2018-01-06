@@ -54,8 +54,8 @@ MiserereIViola = {
 
 MiserereIIViola = {
 	\relative c' {
-		\clef treble
-% 		\clef alto
+% 		\clef treble
+		\clef alto
 		\key c \major \time 4/4 \tempoMiserereII
 			\set Score.currentBarNumber = #37
 		\mvTr c2\f-\tenuto e
@@ -73,7 +73,7 @@ MiserereIIViola = {
 		fis8 e d h' a4 r8 d~
 		d c h d g, a h cis %50
 		d fis,4 g8 a4 e8 a~
-		a a g8 fis gis a4 gis8
+		a a gis?8 fis gis a4 gis8
 		a4 r8 e4 d8 cis e
 		fis e d4. d,8 d'4~
 		d8 d cis4 \mvTr d2\f-\tenuto %55
