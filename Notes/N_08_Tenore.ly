@@ -132,7 +132,7 @@ MiserereIITenoreNotes = {
 		r4 f8. f16 a8 a b8. b16
 		g2 f4 a8([ h)] %95
 		c([ g)] c8. c16 g4 r8 c~
-		c b a c16 c f,8([ g)] a([ h?)]
+		c b a c16 c f,8([ g)] a([ b)]
 		c4. c8 f,4 a
 		e4. f8 g2
 		r4 g4.( f8) e g %100
