@@ -519,7 +519,7 @@ GloriaPatriIBassFigures = \figuremode {
 	<_+> <_+> r
 	r2 <_+>4
 	<6> <7> <6> %180
-	r <6> <_+>
+	r <6 5> <_+>
 	<5>2 <6>4
 	<6\\ 4\+ 2> <6> <_+>
 	r <6> <_+>
@@ -552,7 +552,7 @@ GloriaPatriIBassFigures = \figuremode {
 	<[6]>
 	r
 	r4 <[6]> <_+>
-	r <[6\\]> r
+	<[6\\]>2.
 	r2 <[6] [5]>4 %215
 	r4 <_+> <6>
 	r2 <6>4
