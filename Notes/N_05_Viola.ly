@@ -179,7 +179,7 @@ MiserereIIViola = {
 	}
 }
 
-GloriaPatrisIViola = {
+GloriaPatriIViola = {
 	\relative c' {
 		\clef treble
 % 		\clef alto

@@ -8,7 +8,7 @@
 
 % \include "Scores/S_Miserere1.ly"
 % \include "Scores/S_Miserere2.ly"
-\include "Scores/S_GloriaPatris1.ly"
+\include "Scores/S_GloriaPatri1.ly"
 
 % \include "Parts/P_Oboe1.ly"
 % \include "Parts/P_Oboe2.ly"

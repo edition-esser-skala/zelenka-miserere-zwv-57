@@ -18,62 +18,62 @@
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Oboe I"
-						\GloriaPatrisIOboeI
+						\GloriaPatriIOboeI
 					}
 					\new Staff {
 						\set Staff.instrumentName = "Oboe II"
-						\GloriaPatrisIOboeII
+						\GloriaPatriIOboeII
 					}
 				>>
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\GloriaPatrisIViolinoI
+							\GloriaPatriIViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\GloriaPatrisIViolinoII
+							\GloriaPatriIViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\GloriaPatrisIViola
+						\GloriaPatriIViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \GloriaPatrisISopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \GloriaPatriISopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \GloriaPatrisISopranoLyrics
+					\new Lyrics \lyricsto Soprano \GloriaPatriISopranoLyrics
 					
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Alto"
-% 						\new Voice = "Alto" { \dynamicUp \GloriaPatrisIAltoNotes }
+% 						\new Voice = "Alto" { \dynamicUp \GloriaPatriIAltoNotes }
 % 					}
-% 					\new Lyrics \lyricsto Alto \GloriaPatrisIAltoLyrics
+% 					\new Lyrics \lyricsto Alto \GloriaPatriIAltoLyrics
 % 					
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Tenore"
-% 						\new Voice = "Tenore" { \dynamicUp \GloriaPatrisITenoreNotes }
+% 						\new Voice = "Tenore" { \dynamicUp \GloriaPatriITenoreNotes }
 % 					}
-% 					\new Lyrics \lyricsto Tenore \GloriaPatrisITenoreLyrics
+% 					\new Lyrics \lyricsto Tenore \GloriaPatriITenoreLyrics
 % 					
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Basso"
-% 						\new Voice = "Basso" { \dynamicUp \GloriaPatrisIBassoNotes }
+% 						\new Voice = "Basso" { \dynamicUp \GloriaPatriIBassoNotes }
 % 					}
-% 					\new Lyrics \lyricsto Basso \GloriaPatrisIBassoLyrics
+% 					\new Lyrics \lyricsto Basso \GloriaPatriIBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\GloriaPatrisIOrgano
+						\GloriaPatriIOrgano
 					}
 				>>
 				\new FiguredBass {
-					\GloriaPatrisIBassFigures
+					\GloriaPatriIBassFigures
 				}
 			>>
 			\layout { }

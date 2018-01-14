@@ -354,7 +354,7 @@ MiserereIIBassFigures = \figuremode {
 	<5 4>4 \bassFigureExtendersOn <5 3>8 <5 2> \bassFigureExtendersOff <5 3>2 %156 finis
 }
 
-GloriaPatrisIOrgano = {
+GloriaPatriIOrgano = {
 	\relative c {
 		\clef bass
 		\key e \minor \time 3/4 \tempoGloriaPatrisI
@@ -494,7 +494,7 @@ GloriaPatrisIOrgano = {
 	}
 }
 
-GloriaPatrisIBassFigures = \figuremode {
+GloriaPatriIBassFigures = \figuremode {
 	r2.*32
 	r2.
 	<_+>4 <6> r %190
@@ -507,9 +507,9 @@ GloriaPatrisIBassFigures = \figuremode {
 	<6>2.
 	r
 	<[6]>
-	r %200
-	r4 <6> <_+>
-	<5 3> r <6>
+	r4 <[6]> r %200
+	r <6> <_+>
+	<[6]> r <6>
 	<5>8 <6> <7> <6> <7> <6>
 	<7> <6> <7> <6> <7> <5>
 	r2. %205
@@ -520,13 +520,13 @@ GloriaPatrisIBassFigures = \figuremode {
 	r2. %210
 	r
 	r
-	r2 <_+>4
-	r2.
-	r %215
+	r4 <[6]> <_+>
+	r <[6\\]> r
+	r2 <[6] [5]>4 %215
 	r4 <_+> <6>
 	r2 <6>4
 	r2.
-	r
+	r4 <[6]> r
 	<_->4 q r %220
 	r <5>2
 	<_->4 q <_+>
@@ -536,20 +536,20 @@ GloriaPatrisIBassFigures = \figuremode {
 	r8 <5> r <6 5 _-> r <_+>
 	r4 <6 5 _-> <_+>
 	<6> <6 5 _!> r
-	r2.
-	r %230
+	r <[6]> r
+	r <[6]> r %230
 	r4 <6> r
 	r <6> <\t>
-	<7-> <6> r
+	<7!> <6> r
 	<5 3>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
-	<7>4 <6> r %235
-	r2.
+	<7 [_+]>4 <6 [\t]> r %235
+	<[_!]> <[6]>2
 	<5 _+>2 \bassFigureExtendersOn q8. q16 \bassFigureExtendersOff
 	<5>8 <6> <7> <6> <_+>4
 	r2 <6>4
 	<5 3>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff %240
 	<5+ _+>2 \bassFigureExtendersOn q8. q16 \bassFigureExtendersOff
-	<5>8 <6> <7> <6> <_+>4
+	<5>8 <6> <7 [_+]> <6 [\t]> <[5+] _+>4
 	r2 <6 [_+]>4
 	<5 3>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
 	<6 4\+ 2>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff %245
@@ -557,7 +557,7 @@ GloriaPatrisIBassFigures = \figuremode {
 	q
 	r
 	<6\\>2 <6\\ 4>4
-	r2. %250
+	<[6]> q r %250
 	<_+>4 <6 _+> <5 \t>
 	r <6> q
 	r q q
@@ -569,7 +569,7 @@ GloriaPatrisIBassFigures = \figuremode {
 	<6> <6\\> r
 	<6> r <6 5 [_+]> %260
 	<_+>2.
-	q
+	<[6] [4]>4 <[5] [_+]>2
 	<5 3>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff
 	<6 4>4 <5 4> <5 _+>
 	<5 _+>2 \bassFigureExtendersOn q8. q16 \bassFigureExtendersOff %265
