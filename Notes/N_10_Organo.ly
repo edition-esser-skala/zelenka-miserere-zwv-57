@@ -490,7 +490,7 @@ GloriaPatriIOrgano = {
 		r8 c r a r h %285
 		c4\p a h
 		g\f a h
-		e,2 r4 \bar "||" %288 finis
+		e,2 r4\fermata \bar "||" %288 finis
 	}
 }
 

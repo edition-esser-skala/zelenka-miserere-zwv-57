@@ -386,7 +386,8 @@ GloriaPatriISopranoNotes = {
 		g2.~
 		g8[^\adlibitum fis] fis2
 		e r4 %265
-		R2.*23 \bar "||" %288
+		R2.*22
+		R2.\fermataMarkup \bar "||" %288
 	}
 }
 

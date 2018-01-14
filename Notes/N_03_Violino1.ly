@@ -317,6 +317,6 @@ GloriaPatriIViolinoI = {
 		e8. e,16 fis4-! dis-! %285
 		e8-!\p e'-! r fis r dis
 		h'8.\f e,16 fis4.\trill e8
-		\tuplet 3/2 4 { e-! h-! g-! } \appoggiatura fis e4\trill r \bar "||" %288 finis
+		\tuplet 3/2 4 { e-! h-! g-! } \appoggiatura fis e4\trill r\fermata \bar "||" %288 finis
 	}
 }
