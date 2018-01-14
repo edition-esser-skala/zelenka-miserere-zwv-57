@@ -6,74 +6,74 @@
 
 \include "../definitions.ly"
 
-\paper { first-page-number = #11 }
+\paper { first-page-number = #33 }
 
 #(set-global-staff-size 15.87)
 
 \book {
 	\bookpart {
-		\paper { systems-per-page = #1 }
+% 		\paper { systems-per-page = #1 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Oboe I"
-						\MiserereIIOboeI
+						\GloriaPatrisIOboeI
 					}
 					\new Staff {
 						\set Staff.instrumentName = "Oboe II"
-						\MiserereIIOboeII
+						\GloriaPatrisIOboeII
 					}
 				>>
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\MiserereIIViolinoI
+							\GloriaPatrisIViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\MiserereIIViolinoII
+							\GloriaPatrisIViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\MiserereIIViola
+						\GloriaPatrisIViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \MiserereIISopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \GloriaPatrisISopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \MiserereIISopranoLyrics
+					\new Lyrics \lyricsto Soprano \GloriaPatrisISopranoLyrics
 					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \MiserereIIAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \MiserereIIAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \MiserereIITenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \MiserereIITenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \MiserereIIBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \MiserereIIBassoLyrics
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \GloriaPatrisIAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \GloriaPatrisIAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \GloriaPatrisITenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \GloriaPatrisITenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \GloriaPatrisIBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \GloriaPatrisIBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\MiserereIIOrgano
+						\GloriaPatrisIOrgano
 					}
 				>>
 				\new FiguredBass {
-					\MiserereIIBassFigures
+					\GloriaPatrisIBassFigures
 				}
 			>>
 			\layout { }

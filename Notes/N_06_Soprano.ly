@@ -315,6 +315,19 @@ MiserereIISopranoLyrics = \lyricmode {
 	vi -- tu -- los. %156 finis
 }
 
+GloriaPatrisISopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 3/4 \autoBeamOff \tempoGloriaPatrisI
+			\set Score.currentBarNumber = #157
+		
+	}
+}
+
+GloriaPatrisISopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

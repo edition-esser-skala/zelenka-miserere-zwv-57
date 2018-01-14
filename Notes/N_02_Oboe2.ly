@@ -176,3 +176,11 @@ MiserereIIOboeII = {
 		\tempoMiserereIIFinis f e8 d e2\fermata \bar "||" %156 finis
 	}
 }
+
+GloriaPatrisIOboeII = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 3/4 \tempoGloriaPatrisI
+			\set Score.currentBarNumber = #157
+	}
+}

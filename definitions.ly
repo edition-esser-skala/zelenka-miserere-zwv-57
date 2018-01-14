@@ -108,6 +108,10 @@ org = \markup { \remark Org. }
 orgE = \markup { \remarkE Org. }
 tenuto = \markup { \remark ten. }
 tenutoE = \markup { \remarkE ten. }
+adlibitum = \markup { \remark "ad libitum" }
+adlibitumE = \markup { \remarkE "ad libitum" }
+rip = \markup { \remark "rip." }
+ripE = \markup { \remarkE "rip." }
 
 t = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-line #'(1 . 0) }
 l = \markup { \fontsize #-2 \transparent \number 5 }
@@ -153,6 +157,7 @@ tempoMarkup =
 tempoMiserereI = \tempoMarkup "Adagio"
 tempoMiserereII = \tempoMarkup "Andante ma non troppo"
 tempoMiserereIIFinis = \tempoMarkup "Adagio"
+tempoGloriaPatrisI = \tempoMarkup "Larghetto ma non troppo"
 
 % modify the Scheme function 'format-bass-figure'
 % in usr/share/lilypond/current/scm/translation-functions.scm

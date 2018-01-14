@@ -178,3 +178,12 @@ MiserereIIViola = {
 		\tempoMiserereIIFinis g8 c, c c c2\fermata \bar "||" %156 finis
 	}
 }
+
+GloriaPatrisIViola = {
+	\relative c' {
+		\clef treble
+% 		\clef alto
+		\key e \minor \time 3/4 \tempoGloriaPatrisI
+			\set Score.currentBarNumber = #157
+	}
+}

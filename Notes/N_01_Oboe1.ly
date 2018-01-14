@@ -177,6 +177,14 @@ MiserereIIOboeI = {
 	}
 }
 
+GloriaPatrisIOboeI = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 3/4 \tempoGloriaPatrisI
+			\set Score.currentBarNumber = #157
+	}
+}
+
 % OboeI = {
 % 	\relative c' {
 % 		\clef treble
