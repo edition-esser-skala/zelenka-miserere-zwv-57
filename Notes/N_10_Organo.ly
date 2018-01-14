@@ -423,7 +423,7 @@ GloriaPatriIOrgano = {
 		g r d
 		e c d
 		\mvTr g\f-\rip c d %220
-		es \mvTr fis,2\f-\tenuto
+		es \mvTr fis,!2\f-\tenuto
 		g4 c, d
 		g g g
 		g fis r8 d
@@ -467,7 +467,7 @@ GloriaPatriIOrgano = {
 		h h h
 		c h ais
 		h2.\fermata-\adlibitum
-		\mvTr e8\fE-\ripE d'4 d c16 h %265
+		\mvTr e8\ffE-\ripE d'4 d c16 h %265
 		a4 gis e
 		a r gis\p
 		a8 h c h c a
@@ -495,9 +495,40 @@ GloriaPatriIOrgano = {
 }
 
 GloriaPatriIBassFigures = \figuremode {
-	r2.*32
+	r4 <6> r %157
+	<_+> <6> r
+	<6 5> <6> <7 _+>
+	<_+>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff %160
+	<5>2 <6>4
+	q r q
+	q r <6\\>
+	<_+>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+	<7 _+>2 \bassFigureExtendersOn q8. q16 \bassFigureExtendersOff %165
+	<5>8 <6> <7> <6> <_+>4
+	r2 <6>4
 	r2.
-	<_+>4 <6> r %190
+	<7 5+ _+>2 \bassFigureExtendersOn q8. q16 \bassFigureExtendersOff
+	<5>8 <6> <7 [_+]> <6 \t> <5+ _+>4 %170
+	r2 <5+ _+>4
+	r2 <4\+ 2>4
+	<6> q r
+	<5> <6 4> <5 _+>
+	r <6> q %175
+	r q q
+	<_+> <\t> <6>
+	<_+> <_+> r
+	r2 <_+>4
+	<6> <7> <6> %180
+	r <6> <_+>
+	<5>2 <6>4
+	<6\\ 4\+ 2> <6> <_+>
+	r <6> <_+>
+	r r8 <6> r <_+> %185
+	r4 <6> <_+>
+	<6> q <_+>
+	r2.
+	r4 <[6]> r
+	<_+> <6> r %190
 	<6 5> <6> <7 _+>
 	<_+>2.
 	r2 <5>4
@@ -507,18 +538,18 @@ GloriaPatriIBassFigures = \figuremode {
 	<6>2.
 	r
 	<[6]>
-	r4 <[6]> r %200
+	r4 <[6]> <[7!]> %200
 	r <6> <_+>
-	<[6]> r <6>
+	<5> r <6>
 	<5>8 <6> <7> <6> <7> <6>
 	<7> <6> <7> <6> <7> <5>
 	r2. %205
-	r
+	<[5] [_-]>4 r <[6-] [_-]>
 	<6>4 r q
 	q r <6\\>
 	<5 3>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
 	r2. %210
-	r
+	<[6]>
 	r
 	r4 <[6]> <_+>
 	r <[6\\]> r
@@ -577,6 +608,25 @@ GloriaPatriIBassFigures = \figuremode {
 	r2 <[6]>4
 	r2.
 	<5+ _+>2 \bassFigureExtendersOn q8. q16 \bassFigureExtendersOff
+	<5>8 <6> <7 [_+]> <6 \t> <5+ _+>4 %270
+	r2 <5+ _+>4
+	r2 <4\+ 2>4
+	<6> q r
+	<5> <6 4> <5 _+>
+	r <6> q %275
+	r q q
+	<_+> <\t> <6>
+	<_+> <_+> r
+	r2 <_+>4
+	<6> <7> <6> %280
+	r <6> <_+>
+	<5>2 <6>4
+	<6\\ 4\+ 2> <6> <_+>
+	r <6> <_+>
+	r r8 <6> r <_+> %285
+	r4 <6> <_+>
+	<6> q <_+>
+	r2. %288 finis
 }
 
 % Organo = {

@@ -12,7 +12,7 @@
 
 \book {
 	\bookpart {
-% 		\paper { systems-per-page = #1 }
+		\paper { systems-per-page = #1 }
 		\score {
 			<<
 				\new StaffGroup <<
