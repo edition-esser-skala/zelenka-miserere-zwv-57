@@ -223,7 +223,7 @@ GloriaPatriIViolinoII = {
 		fis g g %190
 		g a g
 		fis r r
-		r8 h e16-! dis-! e-! dis-! e8 e,
+		r8 h\f e16-! dis-! e-! dis-! e8 e,
 		r h h'16-! ais-! h-! ais-! h8 h,
 		e'8.( dis16) e( f) fis( g) gis( a) ais( h) %195
 		\tuplet 3/2 4 { h8-! fis-! dis-! } \appoggiatura cis? h4\trill r
