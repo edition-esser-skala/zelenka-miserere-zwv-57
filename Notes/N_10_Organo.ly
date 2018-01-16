@@ -635,9 +635,154 @@ GloriaPatriIIOrgano = {
 		\key c \major \time 3/2 \tempoGloriaPatriII
 			\set Score.currentBarNumber = #289
 		\mvTr g'2.\fE-\tutti g4 g2
+		f1 f2 %290
+		R1.
+		f2 f, f'
+		e2. e4 e2
+		R1.
+		r2 e e %295
+		a2. a,4 a2
+		R1.
+		r2 a' g
+		f2. e4 fis2
+		r g fis %300
+		e2. e4 d2
+		cis1.
+		\tempoGloriaPatriIIFinis d~ \noBreak
+		d \bar "||"
+		\clef "treble_8" \time 4/4 \tempoSicutErat \newSpacingSection
+			r4 c'4. d8 e c \noBreak %305
+		f e16 d c8 d \clef bass c,2-\markup { \remark "sempre tenuto" }
+		e f
+		d c
+		\clef "treble_8" a'4. g8 f a e4
+		\clef bass f2-\critnote a %310
+		b g
+		f \clef "treble_8"  r4 c'
+		e f d c
+		\clef bass b,2 d
+		es c %315
+		b \clef "treble_8"  g'8 a b g
+		c4. d8 es c f4
+		\clef bass es,2 g
+		as f
+		es4 \clef "treble_8"  c'4. b16 a b4 %320
+		a g2 f4
+		b2 \clef bass f,
+		a b
+		g f
+		\clef "treble_8" r4 f' a b %325
+		g2 f8 g a h
+		\clef bass c,2 e
+		f d
+		c1~
+		c~ %330
+		c~
+		c2. r8 c
+		d2 e
+		f g~ \noBreak
+		g1 \bar "|" %335
+		\key c \dorian \newSpacingSection \tempoMiserereIII
+			\set Staff.beamExceptions = #'()
+				\set Staff.baseMoment = #(ly:make-moment 1/2)
+				\set Staff.beatStructure = #'(1 1)
+		c,8.-\solo c16 c8. c16 c8. c16 c8. c16 \noBreak
+		c8. c16 c8. c16 c8. c16 c8. c16
+		c8. c16 c8. c16 c8. c16 c8. c16
+		c8. c16 c8. c16 f8. f16 f8. f16
+		b,8. b16 b8. b16 es8. es16 es8. es16 %340
+		a,8. a16 a8. a16 d8. d16 d8. d16
+		g4.-\tutti g8 g8. g,16 g8. g16
+		g8. g16 g8. g16 g8. g16 g8. g16
+		g8. g16 g8. g16 g8. g16 g8. g16
+		g8. g'16 g8. g16 c8. c16 c8. c16 %345
+		f,8. f16 f8. f16 b8. b16 b8. b16
+		es,8. es16 es8. es16 as8. as16 as8. as16
+		as4\fermata r r2
+		g8. g,16 g'8. g,16 g'8. g,16 g'8. g,16
+		g'8. g,16 g'8. g,16 g'8. g,16 g'8. g,16 %350
+		g'8. g,16 g'8. g,16 g'8. g,16 g'8. g,16
+		c'8. c,16 c'8. b16 as8.\f as,16 as'8. g16
+		fis8.\ff fis16 fis8. fis16 g8. g,16 g8. g16
+		g4 r8 g'-\solo g,4 r8 g'
+		g,4 r8 g' g,4 r8 g' %355
+		g,4 r8 g' g,4 r8 g'
+		g,4 r8 g' g,4 r8 g'
+		g,2~\f^\tenuto g4~-\tasto g~\p
+		g2\pp r \bar "|." %359 FINIS
 	}
 }
 
 GloriaPatriIIBassFigures = \figuremode {
-	
+	r1. %289
+	<6 4 2> %290
+	r
+	<6 4 2>1 \bassFigureExtendersOn q2 \bassFigureExtendersOff
+	<7 _+>1.
+	r
+	r2 <7 _+>1 %295
+	<9 3>1 <8>2
+	r1.
+	r2 <5 3> <4\+ 2>
+	<6>1 <6 5>2
+	r <5 3> <\t \t> %300
+	<5 3>1 <\t \t>2
+	<7 5 3>1.
+	<6 4>2 <5 _+> <4 2>
+	<5 _+>1.
+	r4 <5 3>4. <\t \t>8 <6>4 %305
+	r2 <5 3>
+	<6> <9>4 <8>
+	<7> <6-> <[7-] 5> <6 4>8 <5 3>
+	<6>4 <5> r <6>
+	<9> <8> <5> <6> %310
+	<7>8 <6> <5>4 <7 _->4 <6>
+	r1
+	<6>2 <6->4 <6>
+	<7> <6> <5>2
+	<5-> <7->4 <6> %315
+	<5>1
+	r
+	<5 4->4 <6 3> <6 4!> <5 4!>
+	<5->2 <7- _->4 <6>
+	<7> <5 _->2 <5>8 <6> %320
+	<6>4 <5 _-> <6-> <6>8 <5>
+	<7>4 <6> <5>2
+	<5 4>4 <6 3> <5>2
+	<7 _->4 <6> r2
+	r2. <5>4 %325
+	<7 _-> <6> r <6>
+	<4> <3> <6> <5->
+	r2 <5>4 <6!>
+	<5 3>2 <6 4>4 <5 3>
+	<6 4> <5 3> r2 %330
+	r1
+	r2.. <5 3>8
+	<7>4 <6> <6>2
+	<9 7>4 <8 6> <7 3> <6 4>
+	<7 3> <6 4> <5 4> <\t 3> %335
+	r1
+	<6- 5>2 <6- 4>
+	<7! 6- 4 2> <8 3>
+	r <7 _->
+	<7> q %340
+	q <7 _+>
+	<9 3>4 <8 \t> r2
+	<6- 5> <6 4 2>
+	<7+ 6- 4 2> <8 3>
+	q <7> %345
+	<7 _-> <7>
+	q q4 <6>
+	<6 4 2!>1
+	<7 _!>2 <6 4>
+	<5 4>4 <6! _-> <7 4 2-> <\t \t 2!> %350
+	<7 _!> <6 4> <5 4> <\t _!>
+	<5 3>4.. \bassFigureExtendersOn q16 <5\! 3\!>4.. <5 3>16 \bassFigureExtendersOff
+	<7>2 <6 4>4 <5 _!>8 <4 2>
+	<5 _!>4. <\t \t>8 <6 4>4. <\t \t>8
+	<7 _!>4. <\t \t>8 <7 _!>4. <\t \t>8 %355
+	<6 4>4. <\t \t>8 <6 4>4. <\t \t>8
+	<5 _!>4. <\t \t>8 <6 4>4. <\t \t>8
+	<7+ 4 2>2 <5 _!>
+	r1 %359 FINIS
 }
