@@ -321,7 +321,7 @@ GloriaPatriISopranoNotes = {
 		\key e \minor \time 3/4 \autoBeamOff \tempoGloriaPatrisI
 			\set Score.currentBarNumber = #157
 		R2.*32 %188
-		\mvTr h'4.\pE^\solo h8 e4
+		\mvTr h'4.\pE^\soloE h8 e4
 		dis8.([ e16)] e2 %190
 		a,8([ g')] \appoggiatura g fis4. e8
 		dis8. cis16 h4 r

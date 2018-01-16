@@ -298,7 +298,7 @@ GloriaPatriIViolinoI = {
 		\afterGrace a'8( g16) f4 e d8
 		\appoggiatura d c8. h16 a8 f'\p \appoggiatura f e8. d16
 		\tuplet 3/2 4 { c8-!\f a-! e-! } \appoggiatura h a4\trill r
-		<fis' cis' ais'>-!\f q-! q^\tenuto
+		<fis' cis' ais'>-!\ff q-! q^\tenuto
 		\afterGrace h'8( a16) g4 fis e8 %270
 		\appoggiatura e d8. cis16 h8 g'\p \appoggiatura g fis8. e16
 		\tuplet 3/2 4 { d8-!\f h-! fis-! } h,-! r16 d'\f dis8.(\trill cis32 dis)
