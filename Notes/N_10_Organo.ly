@@ -357,7 +357,7 @@ MiserereIIBassFigures = \figuremode {
 GloriaPatriIOrgano = {
 	\relative c {
 		\clef bass
-		\key e \minor \time 3/4 \tempoGloriaPatrisI
+		\key e \minor \time 3/4 \tempoGloriaPatriI
 			\set Score.currentBarNumber = #157
 		\mvTr e4\fE-\ripE^\critnote g e
 		h' g e
@@ -629,13 +629,15 @@ GloriaPatriIBassFigures = \figuremode {
 	r2. %288 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+GloriaPatriIIOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/2 \tempoGloriaPatriII
+			\set Score.currentBarNumber = #289
+		\mvTr g'2.\fE-\tutti g4 g2
+	}
+}
+
+GloriaPatriIIBassFigures = \figuremode {
+	
+}

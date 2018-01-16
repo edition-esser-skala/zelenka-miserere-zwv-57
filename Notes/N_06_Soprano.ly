@@ -318,7 +318,7 @@ MiserereIISopranoLyrics = \lyricmode {
 GloriaPatriISopranoNotes = {
 	\relative c' {
 		\clef treble
-		\key e \minor \time 3/4 \autoBeamOff \tempoGloriaPatrisI
+		\key e \minor \time 3/4 \autoBeamOff \tempoGloriaPatriI
 			\set Score.currentBarNumber = #157
 		R2.*32 %188
 		\mvTr h'4.\pE^\soloE h8 e4
@@ -458,13 +458,15 @@ GloriaPatriISopranoLyrics = \lyricmode {
 	cto. %265 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
+GloriaPatriIISopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/2 \autoBeamOff \tempoGloriaPatriII
+			\set Score.currentBarNumber = #289
+		
+	}
+}
+
+GloriaPatriIISopranoLyrics = \lyricmode {
+	
+}

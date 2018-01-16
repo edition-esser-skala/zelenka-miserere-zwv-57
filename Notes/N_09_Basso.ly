@@ -288,13 +288,15 @@ MiserereIIBassoLyrics = \lyricmode {
 	vi -- tu -- los. %156 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+GloriaPatriIIBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/2 \autoBeamOff \tempoGloriaPatriII
+			\set Score.currentBarNumber = #289
+		
+	}
+}
+
+GloriaPatriIIBassoLyrics = \lyricmode {
+	
+}

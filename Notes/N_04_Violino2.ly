@@ -185,7 +185,7 @@ MiserereIIViolinoII = {
 GloriaPatriIViolinoII = {
 	\relative c' {
 		\clef treble
-		\key e \minor \time 3/4 \tempoGloriaPatrisI
+		\key e \minor \time 3/4 \tempoGloriaPatriI
 			\set Score.currentBarNumber = #157
 		\mvTr g'8.(\fE-\markup { \remark "tenuto sempre" } a16) h4 h %157
 		h h h
@@ -319,5 +319,14 @@ GloriaPatriIViolinoII = {
 		e8-!\p e'-! c4 h
 		e,8\f h' c4 h8 dis
 		\tuplet 3/2 4 { e-! h-! g-! } \appoggiatura fis e4\trill r\fermata \bar "||" %288 finis
+	}
+}
+
+GloriaPatriIIViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/2 \tempoGloriaPatriII
+			\set Score.currentBarNumber = #289
+		
 	}
 }

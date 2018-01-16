@@ -311,13 +311,15 @@ MiserereIITenoreLyrics = \lyricmode {
 	tu -- um vi -- tu -- los. %156 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		
-% 	}
-% }
-% 
-% TenoreLyrics = \lyricmode {
-% 	
-% }
+GloriaPatriIITenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 3/2 \autoBeamOff \tempoGloriaPatriII
+			\set Score.currentBarNumber = #289
+		
+	}
+}
+
+GloriaPatriIITenoreLyrics = \lyricmode {
+	
+}

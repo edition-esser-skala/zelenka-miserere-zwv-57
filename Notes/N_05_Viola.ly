@@ -183,7 +183,7 @@ GloriaPatriIViola = {
 	\relative c' {
 % 		\clef treble
 		\clef alto
-		\key e \minor \time 3/4 \tempoGloriaPatrisI
+		\key e \minor \time 3/4 \tempoGloriaPatriI
 			\set Score.currentBarNumber = #157
 		e4\fE^\tenuto e8.( fis16) g4
 		fis \appoggiatura fis g2
@@ -317,5 +317,15 @@ GloriaPatriIViola = {
 		r g'\p a4 fis
 		g\f e dis8 fis
 		\tuplet 3/2 4 { g h g } \appoggiatura fis e4\trill r4\fermata \bar "||" %288 finis
+	}
+}
+
+GloriaPatriIIViola = {
+	\relative c' {
+		\clef treble
+% 		\clef alto
+		\key c \major \time 3/2 \tempoGloriaPatriII
+			\set Score.currentBarNumber = #289
+		
 	}
 }

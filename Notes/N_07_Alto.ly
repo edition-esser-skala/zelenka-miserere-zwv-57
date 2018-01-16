@@ -323,13 +323,15 @@ MiserereIIAltoLyrics = \lyricmode {
 
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+GloriaPatriIIAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/2 \autoBeamOff \tempoGloriaPatriII
+			\set Score.currentBarNumber = #289
+		
+	}
+}
+
+GloriaPatriIIAltoLyrics = \lyricmode {
+	
+}

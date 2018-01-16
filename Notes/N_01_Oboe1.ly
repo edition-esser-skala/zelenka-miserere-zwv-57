@@ -180,7 +180,7 @@ MiserereIIOboeI = {
 GloriaPatriIOboeI = {
 	\relative c' {
 		\clef treble
-		\key e \minor \time 3/4 \tempoGloriaPatrisI
+		\key e \minor \time 3/4 \tempoGloriaPatriI
 			\set Score.currentBarNumber = #157
 		\mvTr h'4.\fE-\markup { \remark "tenuto sempre" } h8 e4
 		dis \appoggiatura dis8 e2
@@ -266,10 +266,11 @@ GloriaPatriIOboeI = {
 	}
 }
 
-% OboeI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \dorian \time 4/4 \tempoMiserere
-% 		
-% 	}
-% }
+GloriaPatriIIOboeI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/2 \tempoGloriaPatriII
+			\set Score.currentBarNumber = #289
+		
+	}
+}

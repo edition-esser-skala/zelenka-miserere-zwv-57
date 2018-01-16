@@ -157,7 +157,8 @@ tempoMarkup =
 tempoMiserereI = \tempoMarkup "Adagio"
 tempoMiserereII = \tempoMarkup "Andante ma non troppo"
 tempoMiserereIIFinis = \tempoMarkup "Adagio"
-tempoGloriaPatrisI = \tempoMarkup "Larghetto ma non troppo"
+tempoGloriaPatriI = \tempoMarkup "Larghetto ma non troppo"
+tempoGloriaPatriII = \tempoMarkup "Largo"
 
 % modify the Scheme function 'format-bass-figure'
 % in usr/share/lilypond/current/scm/translation-functions.scm
