@@ -248,7 +248,7 @@ GloriaPatriIViola = {
 		d \tuplet 3/2 4 { d'8 a fis }  d4
 		r r d
 		h e d
-		b'?16(\f a8.) g16( fis8.) e16( d8.) %220
+		b'?16(\f a8.) g16( f?8.) es?16( d8.) %220
 		g4 a2\f^\tenuto
 		d,4 es d
 		\slurDashed d16( g8.) b?16( a8.) \slurSolid g16( f?8.)
