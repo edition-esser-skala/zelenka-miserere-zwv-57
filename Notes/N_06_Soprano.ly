@@ -479,8 +479,8 @@ GloriaPatriIISopranoNotes = {
 		h~
 		\tempoGloriaPatriIIFinis h2 a g \noBreak
 		a1. \bar "||"
-		\clef "treble_8" \time 4/4 \tempoSicutErat \newSpacingSection
-		r2 e8 d c e16 e %305
+		\time 4/4 \tempoSicutErat \newSpacingSection
+			r2 e'8 d c e16 e \noBreak %305
 		a,8 h c4.( h16[ a] g4)
 		c, g'4. g8 f[ g]
 		a[ f] b2 a8[ g]
@@ -519,8 +519,8 @@ GloriaPatriIISopranoNotes = {
 		es4 d8[ cis] d2~
 		d4 c8[ h] c2
 		h4\fermata r h4.\f h8
-		h2( c8[ d] es[ d16 c]
-		d4) e f8([ c] f4~) %350
+		h2 c8[ d] es[ d16 c]
+		d4 e f8([ c] f4~) %350
 		f es d2
 		c4 es8 es es2~\f
 		es2.(\ff d8[ c)]
@@ -585,8 +585,8 @@ GloriaPatriIISopranoLyrics = \lyricmode {
 	_ _
 	_ _
 	re, mi -- se --
-	re --
-	re me -- %350
+	re -- _ _
+	_ re me -- %350
 	i, De --
 	us, mi -- se -- re --
 	
