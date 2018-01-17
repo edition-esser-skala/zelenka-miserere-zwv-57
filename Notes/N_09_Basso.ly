@@ -293,10 +293,129 @@ GloriaPatriIIBassoNotes = {
 		\clef bass
 		\key c \major \time 3/2 \autoBeamOff \tempoGloriaPatriII
 			\set Score.currentBarNumber = #289
-		
+		\mvTr g'2.\fE^\tutti g4 g2
+		f1 f2 %290
+		R1.
+		f2 f f
+		e2. e4 e2
+		R1.
+		r2 e e %295
+		a2. a,4 a2
+		R1.
+		r2 a' g
+		f2. e4 fis2
+		r g fis %300
+		e2. e4 d2
+		cis1.
+		\tempoGloriaPatriIIFinis d~ \noBreak
+		d \bar "||"
+		\time 4/4 \tempoSicutErat \newSpacingSection R1 \noBreak %305
+		r2 c4.^\tenuto c8
+		e4 e f4. f8
+		d2 c
+		R1
+		f4.^\tenuto f8 a4 a %310
+		b4. b8 g2
+		f r
+		R1
+		b4.^\tenuto b8 d4 d
+		es4. es8 c2 %315
+		b r
+		R1
+		es,4.^\tenuto es8 g4 g
+		as4. as8 f2
+		es r %320
+		R1
+		r2 f4.^\tenuto f8
+		a4 a b4. b8
+		g2 f
+		R1*2 %326
+		c4.^\tenuto c8 e4 e
+		f4. f8 d2
+		c4 c'4. c8 c4~
+		c c, c' c %330
+		c4. c,8 c2
+		c'4. c8 c,2
+		d e
+		f g~ \noBreak
+		g1 \bar "|" %335
+		\key c \dorian \newSpacingSection \tempoMiserereIII c,4 r r2 \noBreak
+		R1*5 %341
+		g'4. g8 g2
+		g, g'4. g8
+		g1
+		g2 c4. c8 %345
+		f,2 b
+		es, as
+		as4\fermata r r2
+		g4. g8 g4 g
+		g2 g %350
+		g1
+		c,4 c'8 b as4.(\f g8
+		fis2\ff) g~
+		g2^\critnote r
+		R1*5 \bar "|." %359 FINIS
 	}
 }
 
 GloriaPatriIIBassoLyrics = \lyricmode {
+	Glo -- ri -- a %289
+	Pa -- tri, %290
 	
+	Pa -- tri et
+	Fi -- li -- o,
+	
+	et Spi -- %295
+	ri -- tu -- i,
+	
+	et Spi --
+	ri -- tu -- i,
+	et Spi -- %300
+	ri -- tu -- i
+	San --
+	cto. __
+	
+	Mi -- se -- %306
+	re -- re me -- i,
+	De -- us.
+	
+	Mi -- se -- re -- re %310
+	me -- i, De --
+	us.
+	
+	Mi -- se -- re -- re
+	me -- i, De -- %315
+	us.
+	
+	Mi -- se -- re -- re
+	me -- i, De --
+	us. %320
+	
+	Mi -- se --
+	re -- re me -- i,
+	De -- us.
+	
+	Mi -- se -- re -- re %327
+	me -- i, De --
+	us. Nunc et sem --
+	per et in %330
+	sae -- cu -- la
+	sae -- cu -- lo --
+	_ _
+	rum, a --
+	%335
+	men.
+	
+	Mi -- se -- re -- %342
+	re, mi -- se --
+	re --
+	re, mi -- se -- %345
+	re -- _
+	_ _
+	re,
+	mi -- se -- re -- re
+	me -- i, %350
+	De --
+	us, mi -- se -- re --
+	re. __ %353 FINIS
 }
