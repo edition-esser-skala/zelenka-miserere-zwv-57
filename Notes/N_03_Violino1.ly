@@ -394,7 +394,7 @@ GloriaPatriIIViolinoI = {
 		<f d d, g,>8. q16 q8. q16 <es! g, g,>8. <es g, g,>16 q8. q16
 		<d d, g,>8. q16 <e b! g g,>8. e16 f8-! c-! f4~ %350
 		f es d4.\trill d8
-		c-! es([-. es-. es-.)] r es(-. es-. es-.)
+		c-! es([-. es-. es-.)] r es(-.\fE es-. es-.)
 		r es(-.\ff es-. es-.) r es( d c)
 		d-! f,([ es d)] r g( f es)
 		r as( g f) r d'( c h) %355

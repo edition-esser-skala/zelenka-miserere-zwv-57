@@ -395,13 +395,13 @@ GloriaPatriIIViolinoII = {
 		q8. q16 q8. q16 <c es,! g,>8. <c es, g,>16 q8. q16
 		<c d, g,>8. q16 <b g g,>8. q16 as8. as16 a8. a16 %350
 		<h d, g,>4 c2 h8.\trill h16
-		c8-! c([-. c-. c-.)] r c(-. c-. c-.)
+		c8-! c([-. c-. c-.)] r c(-.\fE c-. c-.)
 		r c(-.\ffE c-. c-.) r c( h a)
 		h-! d,([ c h)] r es( d c)
 		r f( es d) r f( es d) %355
 		es2. d8 c
 		d-\parenthesize-! d([\pp c h)] r c( h a)
 		\mvTrh c4.\ff-\tenuto c8 d4~ d~\p
-		d2\pp r \bar "|." %359 FINIS
+		d2\pp\fermata r \bar "|." %359 FINIS
 	}
 }
