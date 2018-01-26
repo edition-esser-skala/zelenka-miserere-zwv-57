@@ -354,7 +354,8 @@ GloriaPatriIIBassoNotes = {
 		c,4 c'8 b as4.(\f g8
 		fis2\ff) g~
 		g2^\critnote r
-		R1*5 \bar "|." %359 FINIS
+		R1*4
+		R1\fermataMarkup \bar "|." %359 FINIS
 	}
 }
 

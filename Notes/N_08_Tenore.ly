@@ -379,7 +379,8 @@ GloriaPatriIITenoreNotes = {
 		c c8 c c2~\f
 		c2.(\ff h8[ a])
 		h4 r r2
-		R1*5 \bar "|." %359 FINIS
+		R1*4
+		R1\fermataMarkup \bar "|." %359 FINIS
 	}
 }
 

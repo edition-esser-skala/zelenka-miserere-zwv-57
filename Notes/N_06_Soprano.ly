@@ -525,7 +525,8 @@ GloriaPatriIISopranoNotes = {
 		c4 es8 es es2~\f
 		es2.(\ff d8[ c)]
 		d4 r r2
-		R1*5 \bar "|." %359 FINIS
+		R1*4
+		R1\fermataMarkup \bar "|." %359 FINIS
 	}
 }
 

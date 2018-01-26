@@ -691,8 +691,8 @@ GloriaPatriIIOrgano = {
 		g1 \bar "|" %335
 		\key c \dorian \newSpacingSection \tempoMiserereIII
 			\set Staff.beamExceptions = #'()
-				\set Staff.baseMoment = #(ly:make-moment 1/2)
-				\set Staff.beatStructure = #'(1 1)
+			\set Staff.baseMoment = #(ly:make-moment 1/2)
+			\set Staff.beatStructure = #'(1 1)
 		c,8.-\solo c16 c8. c16 c8. c16 c8. c16 \noBreak
 		c8. c16 c8. c16 c8. c16 c8. c16
 		c8. c16 c8. c16 c8. c16 c8. c16
@@ -714,9 +714,9 @@ GloriaPatriIIOrgano = {
 		g4 r8 g'-\solo g,4 r8 g'
 		g,4 r8 g' g,4 r8 g' %355
 		g,4 r8 g' g,4 r8 g'
-		g,4 r8 g' g,4 r8 g'
-		g,2~\f^\tenuto g4~-\tasto g~\p
-		g2\pp r \bar "|." %359 FINIS
+		g,4 r8 g'\ppE g,4 r8 g'
+		g,2~\ffE^\tenuto g4~-\tasto g~\p
+		g2\pp\fermata r \bar "|." %359 FINIS
 	}
 }
 

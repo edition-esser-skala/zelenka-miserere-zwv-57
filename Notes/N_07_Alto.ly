@@ -391,7 +391,8 @@ GloriaPatriIIAltoNotes = {
 		g as4 r
 		a4.\ff a8 g2
 		g4 r r2
-		R1*5 \bar "|." %359 FINIS
+		R1*4
+		R1\fermataMarkup \bar "|." %359 FINIS
 	}
 }
 
