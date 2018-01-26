@@ -1,4 +1,4 @@
-% (c) 2017 by Wolfgang Skala.
+% (c) 2018 by Wolfgang Skala.
 % This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
@@ -47,24 +47,6 @@
 						\new Voice = "Soprano" { \dynamicUp \GloriaPatriISopranoNotes }
 					}
 					\new Lyrics \lyricsto Soprano \GloriaPatriISopranoLyrics
-					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Alto"
-% 						\new Voice = "Alto" { \dynamicUp \GloriaPatriIAltoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Alto \GloriaPatriIAltoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Tenore"
-% 						\new Voice = "Tenore" { \dynamicUp \GloriaPatriITenoreNotes }
-% 					}
-% 					\new Lyrics \lyricsto Tenore \GloriaPatriITenoreLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Basso"
-% 						\new Voice = "Basso" { \dynamicUp \GloriaPatriIBassoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Basso \GloriaPatriIBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {

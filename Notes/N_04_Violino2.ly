@@ -1,10 +1,6 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% (c) 2017 by Wolfgang Skala.
+% (c) 2018 by Wolfgang Skala.
 % This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \version "2.18.0"
 
@@ -391,7 +387,7 @@ GloriaPatriIIViolinoII = {
 		d8. d'16 d8. g,16 es'8. es,16 es8. es16 %345
 		es8-! es'([ d cis)] d8. d,16 d8. d16
 		d8-! d'([ c h)] c4. c8
-		<h d, g,>4\fermata r r2
+		<h d,>4\fermata-\critnote r r2
 		q8. q16 q8. q16 <c es,! g,>8. <c es, g,>16 q8. q16
 		<c d, g,>8. q16 <b g g,>8. q16 as8. as16 a8. a16 %350
 		<h d, g,>4 c2 h8.\trill h16

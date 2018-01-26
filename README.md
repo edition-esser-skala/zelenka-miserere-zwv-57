@@ -2,7 +2,7 @@
 
 Engraving files for LilyPond 2.18.0
 
-First version, in progress
+First version, January 2018
 
 
 ## Build instructions
@@ -11,6 +11,7 @@ Use the `make` tool for building scores. Specify one of the following **targets*
 
 * **Bassi** etc.: individual parts
 * **parts**: all parts
+* **movements**: all movements
 * **score**: full score
 * **all**: full score and all parts
 * **archive**: ZIP file with all sources
@@ -38,7 +39,10 @@ The file *Miserere.ly* allows you to work with an editor like Kile: Change the i
     * N_09_Basso.ly
     * N_10_Organo.ly
 * Movement definitions in folder *Scores*:
-    * S_Miserere.ly
+    * S_Miserere1.ly
+    * S_Miserere2.ly
+    * S_GloriaPatri1.ly
+    * S_GloriaPatri2.ly
 * Parts definitions in folder *Parts*:
     * P_Bassi.ly
     * P_Coro.ly
@@ -52,7 +56,7 @@ The file *Miserere.ly* allows you to work with an editor like Kile: Change the i
 
 ## Copyright
 
-(c) 2017 by Wolfgang Skala.
+(c) 2018 by Wolfgang Skala.
 
 This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.

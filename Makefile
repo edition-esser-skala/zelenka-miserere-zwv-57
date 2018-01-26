@@ -1,4 +1,4 @@
-# (c) 2017 by Wolfgang Skala.
+# (c) 2018 by Wolfgang Skala.
 # This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 # To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
@@ -8,7 +8,7 @@ project = Zelenka_Miserere_ZWV57
 zipname = Zelenka_ZWV57_Engraving_Files
 notes = Oboe1 Oboe2 Violino1 Violino2 Viola Soprano Alto Tenore Basso Organo
 parts = Bassi Organo Coro Violino1 Violino2 Viola Oboe1 Oboe2
-movements = Miserere
+movements = Miserere1 Miserere2 GloriaPatri1 GloriaPatri2
 
 
 .DEFAULT_GOAL := info

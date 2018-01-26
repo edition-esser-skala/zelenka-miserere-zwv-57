@@ -1,4 +1,4 @@
-% (c) 2017 by Wolfgang Skala.
+% (c) 2018 by Wolfgang Skala.
 % This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
@@ -9,7 +9,7 @@
 % \include "Scores/S_Miserere1.ly"
 % \include "Scores/S_Miserere2.ly"
 % \include "Scores/S_GloriaPatri1.ly"
-\include "Scores/S_GloriaPatri2.ly"
+% \include "Scores/S_GloriaPatri2.ly"
 
 % \include "Parts/P_Oboe1.ly"
 % \include "Parts/P_Oboe2.ly"
@@ -18,4 +18,4 @@
 % \include "Parts/P_Viola.ly"
 % \include "Parts/P_Coro.ly"
 % \include "Parts/P_Organo.ly"
-% \include "Parts/P_Bassi.ly"
+\include "Parts/P_Bassi.ly"
