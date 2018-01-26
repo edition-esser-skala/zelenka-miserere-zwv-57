@@ -322,8 +322,8 @@ GloriaPatriIViola = {
 
 GloriaPatriIIViola = {
 	\relative c' {
-		\clef treble
-% 		\clef alto
+% 		\clef treble
+		\clef alto
 		\key c \major \time 3/2 \tempoGloriaPatriII
 			\set Score.currentBarNumber = #289
 		d2.\fE d4 d2
@@ -340,7 +340,7 @@ GloriaPatriIIViola = {
 		h2 d, d %300
 		e2. e4 e2
 		e e e
-		\once\tieDashed d1.~ \noBreak
+		\tempoGloriaPatriIIFinis \once\tieDashed d1.~ \noBreak
 		d \bar "||"
 		\time 4/4 \tempoSicutErat \newSpacingSection
 			r4 c4. d8 e c \noBreak %305
