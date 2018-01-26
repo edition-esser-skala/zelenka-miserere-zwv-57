@@ -375,7 +375,7 @@ GloriaPatriIIViolinoII = {
 		f8 e d4 c4. b8
 		a4. g16 a h8 g c d16 e \noBreak
 		f4 e d4.\trill d8 \bar "||" %335
-		\key c \dorian \newSpacingSection \tempoMiserereIII 
+		\key c \dorian \newSpacingSection \tempoMiserereIII
 			\set Staff.beamExceptions = #'()
 			\set Staff.baseMoment = #(ly:make-moment 1/2)
 			\set Staff.beatStructure = #'(1 1)

@@ -271,7 +271,7 @@ GloriaPatriIIOboeI = {
 		\clef treble
 		\key c \major \time 3/2 \tempoGloriaPatriII
 			\set Score.currentBarNumber = #289
-		d'2.\fE c4 h( c)
+		d'2.\fE c4 h c
 		d1 d2 %290
 		R1.
 		d2 d d
