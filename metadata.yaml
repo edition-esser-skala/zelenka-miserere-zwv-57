@@ -1,0 +1,24 @@
+composer: Zelenka, Jan Dismas
+title: Miserere
+id: ZWV 57
+genre: psalm
+scoring: S (solo), S, A, T, B (coro), 2 ob, 2 vl, vla, b, org
+sources:
+  1:
+    siglum: D-Dl
+    shelfmark: Mus.2358-D-62
+    type: autograph manuscript
+    date: 1738
+    rism: 211011192
+    url: http://digital.slub-dresden.de/id370791525
+  2:
+    siglum: D-Dl
+    shelfmark: Mus.2358-D-62a
+    type: manuscript copy
+    date: 1738
+    rism: 212006548
+    url: http://digital.slub-dresden.de/id426606736
+github: zelenka-miserere-zwv-57
+imslp:
+notes:
+
